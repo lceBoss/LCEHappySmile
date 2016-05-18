@@ -1,519 +1,1170 @@
-// !$*UTF8*$!
-{
-	archiveVersion = 1;
-	classes = {
-	};
-	objectVersion = 46;
-	objects = {
-
-/* Begin PBXBuildFile section */
-		441652991CEC518F003FEB9D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 441652981CEC518F003FEB9D /* main.m */; };
-		4416529C1CEC518F003FEB9D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4416529B1CEC518F003FEB9D /* AppDelegate.m */; };
-		4416529F1CEC518F003FEB9D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4416529E1CEC518F003FEB9D /* ViewController.m */; };
-		441652A21CEC518F003FEB9D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 441652A01CEC518F003FEB9D /* Main.storyboard */; };
-		441652A41CEC518F003FEB9D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 441652A31CEC518F003FEB9D /* Assets.xcassets */; };
-		441652A71CEC518F003FEB9D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 441652A51CEC518F003FEB9D /* LaunchScreen.storyboard */; };
-		441652B21CEC5190003FEB9D /* LCEHappySmileTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 441652B11CEC5190003FEB9D /* LCEHappySmileTests.m */; };
-		441652BD1CEC5190003FEB9D /* LCEHappySmileUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 441652BC1CEC5190003FEB9D /* LCEHappySmileUITests.m */; };
-/* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		441652AE1CEC5190003FEB9D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 4416528C1CEC518F003FEB9D /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 441652931CEC518F003FEB9D;
-			remoteInfo = LCEHappySmile;
-		};
-		441652B91CEC5190003FEB9D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 4416528C1CEC518F003FEB9D /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 441652931CEC518F003FEB9D;
-			remoteInfo = LCEHappySmile;
-		};
-/* End PBXContainerItemProxy section */
-
-/* Begin PBXFileReference section */
-		441652941CEC518F003FEB9D /* LCEHappySmile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LCEHappySmile.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		441652981CEC518F003FEB9D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		4416529A1CEC518F003FEB9D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		4416529B1CEC518F003FEB9D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		4416529D1CEC518F003FEB9D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		4416529E1CEC518F003FEB9D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		441652A11CEC518F003FEB9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		441652A31CEC518F003FEB9D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		441652A61CEC518F003FEB9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		441652A81CEC518F003FEB9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		441652AD1CEC5190003FEB9D /* LCEHappySmileTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LCEHappySmileTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		441652B11CEC5190003FEB9D /* LCEHappySmileTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LCEHappySmileTests.m; sourceTree = "<group>"; };
-		441652B31CEC5190003FEB9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		441652B81CEC5190003FEB9D /* LCEHappySmileUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LCEHappySmileUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		441652BC1CEC5190003FEB9D /* LCEHappySmileUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LCEHappySmileUITests.m; sourceTree = "<group>"; };
-		441652BE1CEC5190003FEB9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-/* End PBXFileReference section */
-
-/* Begin PBXFrameworksBuildPhase section */
-		441652911CEC518F003FEB9D /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		441652AA1CEC5190003FEB9D /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		441652B51CEC5190003FEB9D /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXFrameworksBuildPhase section */
-
-/* Begin PBXGroup section */
-		4416528B1CEC518F003FEB9D = {
-			isa = PBXGroup;
-			children = (
-				441652961CEC518F003FEB9D /* LCEHappySmile */,
-				441652B01CEC5190003FEB9D /* LCEHappySmileTests */,
-				441652BB1CEC5190003FEB9D /* LCEHappySmileUITests */,
-				441652951CEC518F003FEB9D /* Products */,
-			);
-			sourceTree = "<group>";
-		};
-		441652951CEC518F003FEB9D /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				441652941CEC518F003FEB9D /* LCEHappySmile.app */,
-				441652AD1CEC5190003FEB9D /* LCEHappySmileTests.xctest */,
-				441652B81CEC5190003FEB9D /* LCEHappySmileUITests.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		441652961CEC518F003FEB9D /* LCEHappySmile */ = {
-			isa = PBXGroup;
-			children = (
-				4416529A1CEC518F003FEB9D /* AppDelegate.h */,
-				4416529B1CEC518F003FEB9D /* AppDelegate.m */,
-				4416529D1CEC518F003FEB9D /* ViewController.h */,
-				4416529E1CEC518F003FEB9D /* ViewController.m */,
-				441652A01CEC518F003FEB9D /* Main.storyboard */,
-				441652A31CEC518F003FEB9D /* Assets.xcassets */,
-				441652A51CEC518F003FEB9D /* LaunchScreen.storyboard */,
-				441652A81CEC518F003FEB9D /* Info.plist */,
-				441652971CEC518F003FEB9D /* Supporting Files */,
-			);
-			path = LCEHappySmile;
-			sourceTree = "<group>";
-		};
-		441652971CEC518F003FEB9D /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				441652981CEC518F003FEB9D /* main.m */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		441652B01CEC5190003FEB9D /* LCEHappySmileTests */ = {
-			isa = PBXGroup;
-			children = (
-				441652B11CEC5190003FEB9D /* LCEHappySmileTests.m */,
-				441652B31CEC5190003FEB9D /* Info.plist */,
-			);
-			path = LCEHappySmileTests;
-			sourceTree = "<group>";
-		};
-		441652BB1CEC5190003FEB9D /* LCEHappySmileUITests */ = {
-			isa = PBXGroup;
-			children = (
-				441652BC1CEC5190003FEB9D /* LCEHappySmileUITests.m */,
-				441652BE1CEC5190003FEB9D /* Info.plist */,
-			);
-			path = LCEHappySmileUITests;
-			sourceTree = "<group>";
-		};
-/* End PBXGroup section */
-
-/* Begin PBXNativeTarget section */
-		441652931CEC518F003FEB9D /* LCEHappySmile */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 441652C11CEC5190003FEB9D /* Build configuration list for PBXNativeTarget "LCEHappySmile" */;
-			buildPhases = (
-				441652901CEC518F003FEB9D /* Sources */,
-				441652911CEC518F003FEB9D /* Frameworks */,
-				441652921CEC518F003FEB9D /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = LCEHappySmile;
-			productName = LCEHappySmile;
-			productReference = 441652941CEC518F003FEB9D /* LCEHappySmile.app */;
-			productType = "com.apple.product-type.application";
-		};
-		441652AC1CEC5190003FEB9D /* LCEHappySmileTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 441652C41CEC5190003FEB9D /* Build configuration list for PBXNativeTarget "LCEHappySmileTests" */;
-			buildPhases = (
-				441652A91CEC5190003FEB9D /* Sources */,
-				441652AA1CEC5190003FEB9D /* Frameworks */,
-				441652AB1CEC5190003FEB9D /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				441652AF1CEC5190003FEB9D /* PBXTargetDependency */,
-			);
-			name = LCEHappySmileTests;
-			productName = LCEHappySmileTests;
-			productReference = 441652AD1CEC5190003FEB9D /* LCEHappySmileTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		441652B71CEC5190003FEB9D /* LCEHappySmileUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 441652C71CEC5190003FEB9D /* Build configuration list for PBXNativeTarget "LCEHappySmileUITests" */;
-			buildPhases = (
-				441652B41CEC5190003FEB9D /* Sources */,
-				441652B51CEC5190003FEB9D /* Frameworks */,
-				441652B61CEC5190003FEB9D /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				441652BA1CEC5190003FEB9D /* PBXTargetDependency */,
-			);
-			name = LCEHappySmileUITests;
-			productName = LCEHappySmileUITests;
-			productReference = 441652B81CEC5190003FEB9D /* LCEHappySmileUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
-/* End PBXNativeTarget section */
-
-/* Begin PBXProject section */
-		4416528C1CEC518F003FEB9D /* Project object */ = {
-			isa = PBXProject;
-			attributes = {
-				LastUpgradeCheck = 0730;
-				ORGANIZATIONNAME = "刘随义";
-				TargetAttributes = {
-					441652931CEC518F003FEB9D = {
-						CreatedOnToolsVersion = 7.3.1;
-					};
-					441652AC1CEC5190003FEB9D = {
-						CreatedOnToolsVersion = 7.3.1;
-						TestTargetID = 441652931CEC518F003FEB9D;
-					};
-					441652B71CEC5190003FEB9D = {
-						CreatedOnToolsVersion = 7.3.1;
-						TestTargetID = 441652931CEC518F003FEB9D;
-					};
-				};
-			};
-			buildConfigurationList = 4416528F1CEC518F003FEB9D /* Build configuration list for PBXProject "LCEHappySmile" */;
-			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
-			hasScannedForEncodings = 0;
-			knownRegions = (
-				en,
-				Base,
-			);
-			mainGroup = 4416528B1CEC518F003FEB9D;
-			productRefGroup = 441652951CEC518F003FEB9D /* Products */;
-			projectDirPath = "";
-			projectRoot = "";
-			targets = (
-				441652931CEC518F003FEB9D /* LCEHappySmile */,
-				441652AC1CEC5190003FEB9D /* LCEHappySmileTests */,
-				441652B71CEC5190003FEB9D /* LCEHappySmileUITests */,
-			);
-		};
-/* End PBXProject section */
-
-/* Begin PBXResourcesBuildPhase section */
-		441652921CEC518F003FEB9D /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				441652A71CEC518F003FEB9D /* LaunchScreen.storyboard in Resources */,
-				441652A41CEC518F003FEB9D /* Assets.xcassets in Resources */,
-				441652A21CEC518F003FEB9D /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		441652AB1CEC5190003FEB9D /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		441652B61CEC5190003FEB9D /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXResourcesBuildPhase section */
-
-/* Begin PBXSourcesBuildPhase section */
-		441652901CEC518F003FEB9D /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4416529F1CEC518F003FEB9D /* ViewController.m in Sources */,
-				4416529C1CEC518F003FEB9D /* AppDelegate.m in Sources */,
-				441652991CEC518F003FEB9D /* main.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		441652A91CEC5190003FEB9D /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				441652B21CEC5190003FEB9D /* LCEHappySmileTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		441652B41CEC5190003FEB9D /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				441652BD1CEC5190003FEB9D /* LCEHappySmileUITests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		441652AF1CEC5190003FEB9D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 441652931CEC518F003FEB9D /* LCEHappySmile */;
-			targetProxy = 441652AE1CEC5190003FEB9D /* PBXContainerItemProxy */;
-		};
-		441652BA1CEC5190003FEB9D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 441652931CEC518F003FEB9D /* LCEHappySmile */;
-			targetProxy = 441652B91CEC5190003FEB9D /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		441652A01CEC518F003FEB9D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				441652A11CEC518F003FEB9D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		441652A51CEC518F003FEB9D /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				441652A61CEC518F003FEB9D /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
-/* Begin XCBuildConfiguration section */
-		441652BF1CEC5190003FEB9D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = iphoneos;
-			};
-			name = Debug;
-		};
-		441652C01CEC5190003FEB9D /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				SDKROOT = iphoneos;
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		441652C21CEC5190003FEB9D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = LCEHappySmile/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.kenuokele.www.LCEHappySmile;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Debug;
-		};
-		441652C31CEC5190003FEB9D /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = LCEHappySmile/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.kenuokele.www.LCEHappySmile;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		441652C51CEC5190003FEB9D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = LCEHappySmileTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.kenuokele.www.LCEHappySmileTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LCEHappySmile.app/LCEHappySmile";
-			};
-			name = Debug;
-		};
-		441652C61CEC5190003FEB9D /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = LCEHappySmileTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.kenuokele.www.LCEHappySmileTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LCEHappySmile.app/LCEHappySmile";
-			};
-			name = Release;
-		};
-		441652C81CEC5190003FEB9D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = LCEHappySmileUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.kenuokele.www.LCEHappySmileUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = LCEHappySmile;
-			};
-			name = Debug;
-		};
-		441652C91CEC5190003FEB9D /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = LCEHappySmileUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.kenuokele.www.LCEHappySmileUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = LCEHappySmile;
-			};
-			name = Release;
-		};
-/* End XCBuildConfiguration section */
-
-/* Begin XCConfigurationList section */
-		4416528F1CEC518F003FEB9D /* Build configuration list for PBXProject "LCEHappySmile" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				441652BF1CEC5190003FEB9D /* Debug */,
-				441652C01CEC5190003FEB9D /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		441652C11CEC5190003FEB9D /* Build configuration list for PBXNativeTarget "LCEHappySmile" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				441652C21CEC5190003FEB9D /* Debug */,
-				441652C31CEC5190003FEB9D /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		441652C41CEC5190003FEB9D /* Build configuration list for PBXNativeTarget "LCEHappySmileTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				441652C51CEC5190003FEB9D /* Debug */,
-				441652C61CEC5190003FEB9D /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		441652C71CEC5190003FEB9D /* Build configuration list for PBXNativeTarget "LCEHappySmileUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				441652C81CEC5190003FEB9D /* Debug */,
-				441652C91CEC5190003FEB9D /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-/* End XCConfigurationList section */
-	};
-	rootObject = 4416528C1CEC518F003FEB9D /* Project object */;
-}
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>archiveVersion</key>
+	<string>1</string>
+	<key>classes</key>
+	<dict/>
+	<key>objectVersion</key>
+	<string>46</string>
+	<key>objects</key>
+	<dict>
+		<key>1B2C5BBE3940E6076E75B23D</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>inputPaths</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXShellScriptBuildPhase</string>
+			<key>name</key>
+			<string>Copy Pods Resources</string>
+			<key>outputPaths</key>
+			<array/>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+			<key>shellPath</key>
+			<string>/bin/sh</string>
+			<key>shellScript</key>
+			<string>"${SRCROOT}/Pods/Target Support Files/Pods-LCEHappySmile/Pods-LCEHappySmile-resources.sh"
+</string>
+			<key>showEnvVarsInLog</key>
+			<string>0</string>
+		</dict>
+		<key>1CBB63389BD3213B6B3A324E</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>archive.ar</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>libPods-LCEHappySmile.a</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>2651A261C88354818967092F</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>inputPaths</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXShellScriptBuildPhase</string>
+			<key>name</key>
+			<string>Embed Pods Frameworks</string>
+			<key>outputPaths</key>
+			<array/>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+			<key>shellPath</key>
+			<string>/bin/sh</string>
+			<key>shellScript</key>
+			<string>"${SRCROOT}/Pods/Target Support Files/Pods-LCEHappySmile/Pods-LCEHappySmile-frameworks.sh"
+</string>
+			<key>showEnvVarsInLog</key>
+			<string>0</string>
+		</dict>
+		<key>4416528B1CEC518F003FEB9D</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>441652961CEC518F003FEB9D</string>
+				<string>441652B01CEC5190003FEB9D</string>
+				<string>441652BB1CEC5190003FEB9D</string>
+				<string>441652951CEC518F003FEB9D</string>
+				<string>86B0627415DC3DAF4BB6F49C</string>
+				<string>6357C34AC8B9633B54A3C1D0</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>4416528C1CEC518F003FEB9D</key>
+		<dict>
+			<key>attributes</key>
+			<dict>
+				<key>LastUpgradeCheck</key>
+				<string>0730</string>
+				<key>ORGANIZATIONNAME</key>
+				<string>&#21016;&#38543;&#20041;</string>
+				<key>TargetAttributes</key>
+				<dict>
+					<key>441652931CEC518F003FEB9D</key>
+					<dict>
+						<key>CreatedOnToolsVersion</key>
+						<string>7.3.1</string>
+					</dict>
+					<key>441652AC1CEC5190003FEB9D</key>
+					<dict>
+						<key>CreatedOnToolsVersion</key>
+						<string>7.3.1</string>
+						<key>TestTargetID</key>
+						<string>441652931CEC518F003FEB9D</string>
+					</dict>
+					<key>441652B71CEC5190003FEB9D</key>
+					<dict>
+						<key>CreatedOnToolsVersion</key>
+						<string>7.3.1</string>
+						<key>TestTargetID</key>
+						<string>441652931CEC518F003FEB9D</string>
+					</dict>
+				</dict>
+			</dict>
+			<key>buildConfigurationList</key>
+			<string>4416528F1CEC518F003FEB9D</string>
+			<key>compatibilityVersion</key>
+			<string>Xcode 3.2</string>
+			<key>developmentRegion</key>
+			<string>English</string>
+			<key>hasScannedForEncodings</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXProject</string>
+			<key>knownRegions</key>
+			<array>
+				<string>en</string>
+				<string>Base</string>
+			</array>
+			<key>mainGroup</key>
+			<string>4416528B1CEC518F003FEB9D</string>
+			<key>productRefGroup</key>
+			<string>441652951CEC518F003FEB9D</string>
+			<key>projectDirPath</key>
+			<string></string>
+			<key>projectReferences</key>
+			<array/>
+			<key>projectRoot</key>
+			<string></string>
+			<key>targets</key>
+			<array>
+				<string>441652931CEC518F003FEB9D</string>
+				<string>441652AC1CEC5190003FEB9D</string>
+				<string>441652B71CEC5190003FEB9D</string>
+			</array>
+		</dict>
+		<key>4416528F1CEC518F003FEB9D</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>441652BF1CEC5190003FEB9D</string>
+				<string>441652C01CEC5190003FEB9D</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>441652901CEC518F003FEB9D</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>4416529F1CEC518F003FEB9D</string>
+				<string>4416529C1CEC518F003FEB9D</string>
+				<string>441652991CEC518F003FEB9D</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>441652911CEC518F003FEB9D</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>EA25F0577D355DEBA8E29BB4</string>
+			</array>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>441652921CEC518F003FEB9D</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>441652A71CEC518F003FEB9D</string>
+				<string>441652A41CEC518F003FEB9D</string>
+				<string>441652A21CEC518F003FEB9D</string>
+			</array>
+			<key>isa</key>
+			<string>PBXResourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>441652931CEC518F003FEB9D</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>441652C11CEC5190003FEB9D</string>
+			<key>buildPhases</key>
+			<array>
+				<string>99142B0FA7F4F8BAD71187D6</string>
+				<string>441652901CEC518F003FEB9D</string>
+				<string>441652911CEC518F003FEB9D</string>
+				<string>441652921CEC518F003FEB9D</string>
+				<string>2651A261C88354818967092F</string>
+				<string>1B2C5BBE3940E6076E75B23D</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>LCEHappySmile</string>
+			<key>productName</key>
+			<string>LCEHappySmile</string>
+			<key>productReference</key>
+			<string>441652941CEC518F003FEB9D</string>
+			<key>productType</key>
+			<string>com.apple.product-type.application</string>
+		</dict>
+		<key>441652941CEC518F003FEB9D</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>wrapper.application</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>LCEHappySmile.app</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>441652951CEC518F003FEB9D</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>441652941CEC518F003FEB9D</string>
+				<string>441652AD1CEC5190003FEB9D</string>
+				<string>441652B81CEC5190003FEB9D</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Products</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>441652961CEC518F003FEB9D</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>4416529A1CEC518F003FEB9D</string>
+				<string>4416529B1CEC518F003FEB9D</string>
+				<string>4416529D1CEC518F003FEB9D</string>
+				<string>4416529E1CEC518F003FEB9D</string>
+				<string>441652A01CEC518F003FEB9D</string>
+				<string>441652A31CEC518F003FEB9D</string>
+				<string>441652A51CEC518F003FEB9D</string>
+				<string>441652A81CEC518F003FEB9D</string>
+				<string>441652971CEC518F003FEB9D</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>path</key>
+			<string>LCEHappySmile</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>441652971CEC518F003FEB9D</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>441652981CEC518F003FEB9D</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Supporting Files</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>441652981CEC518F003FEB9D</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>main.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>441652991CEC518F003FEB9D</key>
+		<dict>
+			<key>fileRef</key>
+			<string>441652981CEC518F003FEB9D</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>4416529A1CEC518F003FEB9D</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>AppDelegate.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>4416529B1CEC518F003FEB9D</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>AppDelegate.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>4416529C1CEC518F003FEB9D</key>
+		<dict>
+			<key>fileRef</key>
+			<string>4416529B1CEC518F003FEB9D</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>4416529D1CEC518F003FEB9D</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>ViewController.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>4416529E1CEC518F003FEB9D</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>ViewController.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>4416529F1CEC518F003FEB9D</key>
+		<dict>
+			<key>fileRef</key>
+			<string>4416529E1CEC518F003FEB9D</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>441652A01CEC518F003FEB9D</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>441652A11CEC518F003FEB9D</string>
+			</array>
+			<key>isa</key>
+			<string>PBXVariantGroup</string>
+			<key>name</key>
+			<string>Main.storyboard</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>441652A11CEC518F003FEB9D</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>file.storyboard</string>
+			<key>name</key>
+			<string>Base</string>
+			<key>path</key>
+			<string>Base.lproj/Main.storyboard</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>441652A21CEC518F003FEB9D</key>
+		<dict>
+			<key>fileRef</key>
+			<string>441652A01CEC518F003FEB9D</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>441652A31CEC518F003FEB9D</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>folder.assetcatalog</string>
+			<key>path</key>
+			<string>Assets.xcassets</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>441652A41CEC518F003FEB9D</key>
+		<dict>
+			<key>fileRef</key>
+			<string>441652A31CEC518F003FEB9D</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>441652A51CEC518F003FEB9D</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>441652A61CEC518F003FEB9D</string>
+			</array>
+			<key>isa</key>
+			<string>PBXVariantGroup</string>
+			<key>name</key>
+			<string>LaunchScreen.storyboard</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>441652A61CEC518F003FEB9D</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>file.storyboard</string>
+			<key>name</key>
+			<string>Base</string>
+			<key>path</key>
+			<string>Base.lproj/LaunchScreen.storyboard</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>441652A71CEC518F003FEB9D</key>
+		<dict>
+			<key>fileRef</key>
+			<string>441652A51CEC518F003FEB9D</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>441652A81CEC518F003FEB9D</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
+			<key>path</key>
+			<string>Info.plist</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>441652A91CEC5190003FEB9D</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>441652B21CEC5190003FEB9D</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>441652AA1CEC5190003FEB9D</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>441652AB1CEC5190003FEB9D</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXResourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>441652AC1CEC5190003FEB9D</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>441652C41CEC5190003FEB9D</string>
+			<key>buildPhases</key>
+			<array>
+				<string>441652A91CEC5190003FEB9D</string>
+				<string>441652AA1CEC5190003FEB9D</string>
+				<string>441652AB1CEC5190003FEB9D</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array>
+				<string>441652AF1CEC5190003FEB9D</string>
+			</array>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>LCEHappySmileTests</string>
+			<key>productName</key>
+			<string>LCEHappySmileTests</string>
+			<key>productReference</key>
+			<string>441652AD1CEC5190003FEB9D</string>
+			<key>productType</key>
+			<string>com.apple.product-type.bundle.unit-test</string>
+		</dict>
+		<key>441652AD1CEC5190003FEB9D</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>wrapper.cfbundle</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>LCEHappySmileTests.xctest</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>441652AE1CEC5190003FEB9D</key>
+		<dict>
+			<key>containerPortal</key>
+			<string>4416528C1CEC518F003FEB9D</string>
+			<key>isa</key>
+			<string>PBXContainerItemProxy</string>
+			<key>proxyType</key>
+			<string>1</string>
+			<key>remoteGlobalIDString</key>
+			<string>441652931CEC518F003FEB9D</string>
+			<key>remoteInfo</key>
+			<string>LCEHappySmile</string>
+		</dict>
+		<key>441652AF1CEC5190003FEB9D</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXTargetDependency</string>
+			<key>target</key>
+			<string>441652931CEC518F003FEB9D</string>
+			<key>targetProxy</key>
+			<string>441652AE1CEC5190003FEB9D</string>
+		</dict>
+		<key>441652B01CEC5190003FEB9D</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>441652B11CEC5190003FEB9D</string>
+				<string>441652B31CEC5190003FEB9D</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>path</key>
+			<string>LCEHappySmileTests</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>441652B11CEC5190003FEB9D</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>LCEHappySmileTests.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>441652B21CEC5190003FEB9D</key>
+		<dict>
+			<key>fileRef</key>
+			<string>441652B11CEC5190003FEB9D</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>441652B31CEC5190003FEB9D</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
+			<key>path</key>
+			<string>Info.plist</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>441652B41CEC5190003FEB9D</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>441652BD1CEC5190003FEB9D</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>441652B51CEC5190003FEB9D</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>441652B61CEC5190003FEB9D</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXResourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>441652B71CEC5190003FEB9D</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>441652C71CEC5190003FEB9D</string>
+			<key>buildPhases</key>
+			<array>
+				<string>441652B41CEC5190003FEB9D</string>
+				<string>441652B51CEC5190003FEB9D</string>
+				<string>441652B61CEC5190003FEB9D</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array>
+				<string>441652BA1CEC5190003FEB9D</string>
+			</array>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>LCEHappySmileUITests</string>
+			<key>productName</key>
+			<string>LCEHappySmileUITests</string>
+			<key>productReference</key>
+			<string>441652B81CEC5190003FEB9D</string>
+			<key>productType</key>
+			<string>com.apple.product-type.bundle.ui-testing</string>
+		</dict>
+		<key>441652B81CEC5190003FEB9D</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>wrapper.cfbundle</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>LCEHappySmileUITests.xctest</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>441652B91CEC5190003FEB9D</key>
+		<dict>
+			<key>containerPortal</key>
+			<string>4416528C1CEC518F003FEB9D</string>
+			<key>isa</key>
+			<string>PBXContainerItemProxy</string>
+			<key>proxyType</key>
+			<string>1</string>
+			<key>remoteGlobalIDString</key>
+			<string>441652931CEC518F003FEB9D</string>
+			<key>remoteInfo</key>
+			<string>LCEHappySmile</string>
+		</dict>
+		<key>441652BA1CEC5190003FEB9D</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXTargetDependency</string>
+			<key>target</key>
+			<string>441652931CEC518F003FEB9D</string>
+			<key>targetProxy</key>
+			<string>441652B91CEC5190003FEB9D</string>
+		</dict>
+		<key>441652BB1CEC5190003FEB9D</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>441652BC1CEC5190003FEB9D</string>
+				<string>441652BE1CEC5190003FEB9D</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>path</key>
+			<string>LCEHappySmileUITests</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>441652BC1CEC5190003FEB9D</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>LCEHappySmileUITests.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>441652BD1CEC5190003FEB9D</key>
+		<dict>
+			<key>fileRef</key>
+			<string>441652BC1CEC5190003FEB9D</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>441652BE1CEC5190003FEB9D</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
+			<key>path</key>
+			<string>Info.plist</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>441652BF1CEC5190003FEB9D</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>NO</string>
+				<key>CLANG_ANALYZER_NONNULL</key>
+				<string>YES</string>
+				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
+				<string>gnu++0x</string>
+				<key>CLANG_CXX_LIBRARY</key>
+				<string>libc++</string>
+				<key>CLANG_ENABLE_MODULES</key>
+				<string>YES</string>
+				<key>CLANG_ENABLE_OBJC_ARC</key>
+				<string>YES</string>
+				<key>CLANG_WARN_BOOL_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
+				<string>YES_ERROR</string>
+				<key>CLANG_WARN_EMPTY_BODY</key>
+				<string>YES</string>
+				<key>CLANG_WARN_ENUM_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_INT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
+				<string>YES_ERROR</string>
+				<key>CLANG_WARN_UNREACHABLE_CODE</key>
+				<string>YES</string>
+				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
+				<string>YES</string>
+				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
+				<string>iPhone Developer</string>
+				<key>COPY_PHASE_STRIP</key>
+				<string>NO</string>
+				<key>DEBUG_INFORMATION_FORMAT</key>
+				<string>dwarf</string>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>ENABLE_TESTABILITY</key>
+				<string>YES</string>
+				<key>GCC_C_LANGUAGE_STANDARD</key>
+				<string>gnu99</string>
+				<key>GCC_DYNAMIC_NO_PIC</key>
+				<string>NO</string>
+				<key>GCC_NO_COMMON_BLOCKS</key>
+				<string>YES</string>
+				<key>GCC_OPTIMIZATION_LEVEL</key>
+				<string>0</string>
+				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
+				<array>
+					<string>DEBUG=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
+				<string>YES</string>
+				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
+				<string>YES_ERROR</string>
+				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
+				<string>YES_AGGRESSIVE</string>
+				<key>GCC_WARN_UNUSED_FUNCTION</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNUSED_VARIABLE</key>
+				<string>YES</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>9.3</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>YES</string>
+				<key>ONLY_ACTIVE_ARCH</key>
+				<string>YES</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>441652C01CEC5190003FEB9D</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>NO</string>
+				<key>CLANG_ANALYZER_NONNULL</key>
+				<string>YES</string>
+				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
+				<string>gnu++0x</string>
+				<key>CLANG_CXX_LIBRARY</key>
+				<string>libc++</string>
+				<key>CLANG_ENABLE_MODULES</key>
+				<string>YES</string>
+				<key>CLANG_ENABLE_OBJC_ARC</key>
+				<string>YES</string>
+				<key>CLANG_WARN_BOOL_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
+				<string>YES_ERROR</string>
+				<key>CLANG_WARN_EMPTY_BODY</key>
+				<string>YES</string>
+				<key>CLANG_WARN_ENUM_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_INT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
+				<string>YES_ERROR</string>
+				<key>CLANG_WARN_UNREACHABLE_CODE</key>
+				<string>YES</string>
+				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
+				<string>YES</string>
+				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
+				<string>iPhone Developer</string>
+				<key>COPY_PHASE_STRIP</key>
+				<string>NO</string>
+				<key>DEBUG_INFORMATION_FORMAT</key>
+				<string>dwarf-with-dsym</string>
+				<key>ENABLE_NS_ASSERTIONS</key>
+				<string>NO</string>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>GCC_C_LANGUAGE_STANDARD</key>
+				<string>gnu99</string>
+				<key>GCC_NO_COMMON_BLOCKS</key>
+				<string>YES</string>
+				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
+				<string>YES</string>
+				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
+				<string>YES_ERROR</string>
+				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
+				<string>YES_AGGRESSIVE</string>
+				<key>GCC_WARN_UNUSED_FUNCTION</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNUSED_VARIABLE</key>
+				<string>YES</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>9.3</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>NO</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>VALIDATE_PRODUCT</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>441652C11CEC5190003FEB9D</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>441652C21CEC5190003FEB9D</string>
+				<string>441652C31CEC5190003FEB9D</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>441652C21CEC5190003FEB9D</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>F8D58F73061BC85CF2C16F38</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
+				<string>AppIcon</string>
+				<key>INFOPLIST_FILE</key>
+				<string>LCEHappySmile/Info.plist</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<string>$(inherited) @executable_path/Frameworks</string>
+				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
+				<string>com.kenuokele.www.LCEHappySmile</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>441652C31CEC5190003FEB9D</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>F725FE213FE425DE0534CCBD</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
+				<string>AppIcon</string>
+				<key>INFOPLIST_FILE</key>
+				<string>LCEHappySmile/Info.plist</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<string>$(inherited) @executable_path/Frameworks</string>
+				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
+				<string>com.kenuokele.www.LCEHappySmile</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>441652C41CEC5190003FEB9D</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>441652C51CEC5190003FEB9D</string>
+				<string>441652C61CEC5190003FEB9D</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>441652C51CEC5190003FEB9D</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>BUNDLE_LOADER</key>
+				<string>$(TEST_HOST)</string>
+				<key>INFOPLIST_FILE</key>
+				<string>LCEHappySmileTests/Info.plist</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
+				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
+				<string>com.kenuokele.www.LCEHappySmileTests</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>TEST_HOST</key>
+				<string>$(BUILT_PRODUCTS_DIR)/LCEHappySmile.app/LCEHappySmile</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>441652C61CEC5190003FEB9D</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>BUNDLE_LOADER</key>
+				<string>$(TEST_HOST)</string>
+				<key>INFOPLIST_FILE</key>
+				<string>LCEHappySmileTests/Info.plist</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
+				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
+				<string>com.kenuokele.www.LCEHappySmileTests</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>TEST_HOST</key>
+				<string>$(BUILT_PRODUCTS_DIR)/LCEHappySmile.app/LCEHappySmile</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>441652C71CEC5190003FEB9D</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>441652C81CEC5190003FEB9D</string>
+				<string>441652C91CEC5190003FEB9D</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>441652C81CEC5190003FEB9D</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>INFOPLIST_FILE</key>
+				<string>LCEHappySmileUITests/Info.plist</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
+				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
+				<string>com.kenuokele.www.LCEHappySmileUITests</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>TEST_TARGET_NAME</key>
+				<string>LCEHappySmile</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>441652C91CEC5190003FEB9D</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>INFOPLIST_FILE</key>
+				<string>LCEHappySmileUITests/Info.plist</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
+				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
+				<string>com.kenuokele.www.LCEHappySmileUITests</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>TEST_TARGET_NAME</key>
+				<string>LCEHappySmile</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>6357C34AC8B9633B54A3C1D0</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>1CBB63389BD3213B6B3A324E</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Frameworks</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>86B0627415DC3DAF4BB6F49C</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>F8D58F73061BC85CF2C16F38</string>
+				<string>F725FE213FE425DE0534CCBD</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Pods</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>99142B0FA7F4F8BAD71187D6</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>inputPaths</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXShellScriptBuildPhase</string>
+			<key>name</key>
+			<string>Check Pods Manifest.lock</string>
+			<key>outputPaths</key>
+			<array/>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+			<key>shellPath</key>
+			<string>/bin/sh</string>
+			<key>shellScript</key>
+			<string>diff "${PODS_ROOT}/../Podfile.lock" "${PODS_ROOT}/Manifest.lock" &gt; /dev/null
+if [[ $? != 0 ]] ; then
+    cat &lt;&lt; EOM
+error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.
+EOM
+    exit 1
+fi
+</string>
+			<key>showEnvVarsInLog</key>
+			<string>0</string>
+		</dict>
+		<key>EA25F0577D355DEBA8E29BB4</key>
+		<dict>
+			<key>fileRef</key>
+			<string>1CBB63389BD3213B6B3A324E</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>F725FE213FE425DE0534CCBD</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>name</key>
+			<string>Pods-LCEHappySmile.release.xcconfig</string>
+			<key>path</key>
+			<string>Pods/Target Support Files/Pods-LCEHappySmile/Pods-LCEHappySmile.release.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>F8D58F73061BC85CF2C16F38</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>name</key>
+			<string>Pods-LCEHappySmile.debug.xcconfig</string>
+			<key>path</key>
+			<string>Pods/Target Support Files/Pods-LCEHappySmile/Pods-LCEHappySmile.debug.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+	</dict>
+	<key>rootObject</key>
+	<string>4416528C1CEC518F003FEB9D</string>
+</dict>
+</plist>
