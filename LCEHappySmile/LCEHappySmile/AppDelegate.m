@@ -22,6 +22,14 @@
     self.window.backgroundColor = [UIColor blackColor];
     LCEMainTabBarController *mainTabBar = [[LCEMainTabBarController alloc] init];
     self.window.rootViewController = mainTabBar;
+    
+    [UIApplication sharedApplication].statusBarStyle = UIStatusBarStyleLightContent;
+    NSDictionary *attribute = [NSDictionary dictionaryWithObjectsAndKeys:[UIFont boldSystemFontOfSize:18],NSFontAttributeName,[UIColor blackColor],NSForegroundColorAttributeName, nil];
+    UINavigationBar *bar = [UINavigationBar appearance];
+    [bar setTitleTextAttributes:attribute];
+    [bar setTintColor:[UIColor whiteColor]];
+//    [bar setBarTintColor:];
+    
     [self.window makeKeyAndVisible];
     
     return YES;

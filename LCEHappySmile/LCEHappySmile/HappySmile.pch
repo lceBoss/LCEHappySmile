@@ -1,0 +1,35 @@
+//
+//  HappySmile.pch
+//  LCEHappySmile
+//
+//  Created by 刘随义 on 16/5/19.
+//  Copyright © 2016年 刘随义. All rights reserved.
+//
+
+#ifndef HappySmile_pch
+#define HappySmile_pch
+
+#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
+
+//宏定义
+#import "LCEPrecompile.h"
+
+#import "LCEUtilExtend.h"
+
+//masonry布局约束
+#import <Masonry.h>
+
+//#import "UIView+Frame.h"
+
+#ifdef DEBUG
+
+#define NSLog(...) NSLog(__VA_ARGS__);
+
+#else
+
+#define NSLog(...)
+
+#endif
+
+#endif /* HappySmile_pch */

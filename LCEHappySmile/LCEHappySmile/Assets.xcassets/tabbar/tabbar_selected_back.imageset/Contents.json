@@ -2,16 +2,44 @@
   "images" : [
     {
       "idiom" : "universal",
-      "filename" : "tabbar_selected_back.png",
       "scale" : "1x"
     },
     {
+      "resizing" : {
+        "mode" : "9-part",
+        "center" : {
+          "mode" : "tile",
+          "width" : 1,
+          "height" : 1
+        },
+        "cap-insets" : {
+          "bottom" : 6,
+          "top" : 6,
+          "right" : 7,
+          "left" : 7
+        }
+      },
       "idiom" : "universal",
       "filename" : "tabbar_selected_back@2x.png",
       "scale" : "2x"
     },
     {
+      "resizing" : {
+        "mode" : "9-part",
+        "center" : {
+          "mode" : "tile",
+          "width" : 1,
+          "height" : 1
+        },
+        "cap-insets" : {
+          "bottom" : 10,
+          "top" : 9,
+          "right" : 11,
+          "left" : 11
+        }
+      },
       "idiom" : "universal",
+      "filename" : "tabbar_selected_back@3x.png",
       "scale" : "3x"
     }
   ],

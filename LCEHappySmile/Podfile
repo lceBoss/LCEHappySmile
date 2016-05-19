@@ -19,6 +19,8 @@ pod 'MJRefresh'
 
 pod 'SDWebImage'
 
+pod 'LCProgressHUD'
+
 end
 
 target 'LCEHappySmileTests' do
