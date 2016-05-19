@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  LCESoundViewController.h
 //  LCEHappySmile
 //
 //  Created by 刘随义 on 16/5/18.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface LCESoundViewController : UIViewController
 
 @end
-
