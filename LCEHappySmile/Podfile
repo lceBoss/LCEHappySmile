@@ -5,9 +5,7 @@
 
 target 'LCEHappySmile' do
 
-pod 'AFNetworking'
-
-pod 'YTKNetwork'
+pod 'AFNetworking', ‘~>2.5.4'
 
 pod 'Mantle'
 
@@ -21,9 +19,13 @@ pod 'SDWebImage'
 
 pod 'LCProgressHUD'
 
+pod 'libextobjc'
+
 end
 
 target 'LCEHappySmileTests' do
+
+pod 'Expecta'
 
 end
 

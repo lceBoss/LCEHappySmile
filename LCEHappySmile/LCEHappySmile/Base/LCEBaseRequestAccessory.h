@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <YTKBaseRequest.h>
+#import "YTKBaseRequest.h"
 
 @interface LCEBaseRequestAccessory : NSObject <YTKRequestAccessory>
 

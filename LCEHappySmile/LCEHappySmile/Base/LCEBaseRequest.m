@@ -39,7 +39,7 @@
 }
 
 - (YTKRequestMethod)requestMethod {
-    return YTKRequestMethodPost;
+    return YTKRequestMethodGet;
 }
 
 - (YTKRequestSerializerType)requestSerializerType {
@@ -52,6 +52,8 @@
     }
     return _baseMuDic;
 }
+
+
 
 - (id)requestArgument {
     return self.baseMuDic;

@@ -27,10 +27,26 @@
 		443E90281CEDBD0700D3BA93 /* MTLManagedObjectAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 443E90261CEDBD0700D3BA93 /* MTLManagedObjectAdapter.m */; };
 		443E902B1CEDBE4B00D3BA93 /* NSString+Contain.m in Sources */ = {isa = PBXBuildFile; fileRef = 443E902A1CEDBE4B00D3BA93 /* NSString+Contain.m */; };
 		443E902F1CEDBEB000D3BA93 /* NSDate+BTAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 443E902E1CEDBEB000D3BA93 /* NSDate+BTAddition.m */; };
+		4443F18F1CEEA27A002053E0 /* LCEPictureApi.m in Sources */ = {isa = PBXBuildFile; fileRef = 4443F18E1CEEA27A002053E0 /* LCEPictureApi.m */; };
+		4443F1931CEEB933002053E0 /* LCEPictureTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4443F1921CEEB933002053E0 /* LCEPictureTests.m */; };
+		4443F1C91CEEDBBE002053E0 /* YTKBaseRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4443F1B81CEEDBBE002053E0 /* YTKBaseRequest.m */; };
+		4443F1CA1CEEDBBE002053E0 /* YTKBatchRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4443F1BA1CEEDBBE002053E0 /* YTKBatchRequest.m */; };
+		4443F1CB1CEEDBBE002053E0 /* YTKBatchRequestAgent.m in Sources */ = {isa = PBXBuildFile; fileRef = 4443F1BC1CEEDBBE002053E0 /* YTKBatchRequestAgent.m */; };
+		4443F1CC1CEEDBBE002053E0 /* YTKChainRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4443F1BE1CEEDBBE002053E0 /* YTKChainRequest.m */; };
+		4443F1CD1CEEDBBE002053E0 /* YTKChainRequestAgent.m in Sources */ = {isa = PBXBuildFile; fileRef = 4443F1C01CEEDBBE002053E0 /* YTKChainRequestAgent.m */; };
+		4443F1CE1CEEDBBE002053E0 /* YTKNetworkAgent.m in Sources */ = {isa = PBXBuildFile; fileRef = 4443F1C21CEEDBBE002053E0 /* YTKNetworkAgent.m */; };
+		4443F1CF1CEEDBBE002053E0 /* YTKNetworkConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 4443F1C41CEEDBBE002053E0 /* YTKNetworkConfig.m */; };
+		4443F1D01CEEDBBE002053E0 /* YTKNetworkPrivate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4443F1C61CEEDBBE002053E0 /* YTKNetworkPrivate.m */; };
+		4443F1D11CEEDBBE002053E0 /* YTKRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4443F1C81CEEDBBE002053E0 /* YTKRequest.m */; };
+		4443F1E01CEEDCF8002053E0 /* AFDownloadRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4443F1DF1CEEDCF8002053E0 /* AFDownloadRequestOperation.m */; };
+		4443F1E81CEEE534002053E0 /* LCEPictureModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4443F1E71CEEE534002053E0 /* LCEPictureModel.m */; };
+		4443F1EB1CEEE618002053E0 /* LCEPictureContentModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4443F1EA1CEEE618002053E0 /* LCEPictureContentModel.m */; };
+		4443F1EE1CEEE769002053E0 /* LCEPictureListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4443F1ED1CEEE769002053E0 /* LCEPictureListModel.m */; };
 		44B5707A1CED5627001067B2 /* UIImage+Original.m in Sources */ = {isa = PBXBuildFile; fileRef = 44B570791CED5627001067B2 /* UIImage+Original.m */; };
 		44B570811CED9BE5001067B2 /* LCEBaseRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 44B570801CED9BE5001067B2 /* LCEBaseRequest.m */; };
 		44B570841CED9EB6001067B2 /* LCEBaseRequestAccessory.m in Sources */ = {isa = PBXBuildFile; fileRef = 44B570831CED9EB6001067B2 /* LCEBaseRequestAccessory.m */; };
 		44B570871CEDA229001067B2 /* NSString+Empty.m in Sources */ = {isa = PBXBuildFile; fileRef = 44B570861CEDA229001067B2 /* NSString+Empty.m */; };
+		7D44355B8D6EE21664DBE7F1 /* libPods-LCEHappySmileTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 58914D57A69F574C5891A74F /* libPods-LCEHappySmileTests.a */; };
 		EA25F0577D355DEBA8E29BB4 /* libPods-LCEHappySmile.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CBB63389BD3213B6B3A324E /* libPods-LCEHappySmile.a */; };
 /* End PBXBuildFile section */
 
@@ -93,6 +109,35 @@
 		443E902A1CEDBE4B00D3BA93 /* NSString+Contain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Contain.m"; sourceTree = "<group>"; };
 		443E902D1CEDBEB000D3BA93 /* NSDate+BTAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+BTAddition.h"; sourceTree = "<group>"; };
 		443E902E1CEDBEB000D3BA93 /* NSDate+BTAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+BTAddition.m"; sourceTree = "<group>"; };
+		4443F18D1CEEA27A002053E0 /* LCEPictureApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCEPictureApi.h; sourceTree = "<group>"; };
+		4443F18E1CEEA27A002053E0 /* LCEPictureApi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCEPictureApi.m; sourceTree = "<group>"; };
+		4443F1921CEEB933002053E0 /* LCEPictureTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCEPictureTests.m; sourceTree = "<group>"; };
+		4443F1B71CEEDBBE002053E0 /* YTKBaseRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTKBaseRequest.h; sourceTree = "<group>"; };
+		4443F1B81CEEDBBE002053E0 /* YTKBaseRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTKBaseRequest.m; sourceTree = "<group>"; };
+		4443F1B91CEEDBBE002053E0 /* YTKBatchRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTKBatchRequest.h; sourceTree = "<group>"; };
+		4443F1BA1CEEDBBE002053E0 /* YTKBatchRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTKBatchRequest.m; sourceTree = "<group>"; };
+		4443F1BB1CEEDBBE002053E0 /* YTKBatchRequestAgent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTKBatchRequestAgent.h; sourceTree = "<group>"; };
+		4443F1BC1CEEDBBE002053E0 /* YTKBatchRequestAgent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTKBatchRequestAgent.m; sourceTree = "<group>"; };
+		4443F1BD1CEEDBBE002053E0 /* YTKChainRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTKChainRequest.h; sourceTree = "<group>"; };
+		4443F1BE1CEEDBBE002053E0 /* YTKChainRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTKChainRequest.m; sourceTree = "<group>"; };
+		4443F1BF1CEEDBBE002053E0 /* YTKChainRequestAgent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTKChainRequestAgent.h; sourceTree = "<group>"; };
+		4443F1C01CEEDBBE002053E0 /* YTKChainRequestAgent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTKChainRequestAgent.m; sourceTree = "<group>"; };
+		4443F1C11CEEDBBE002053E0 /* YTKNetworkAgent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTKNetworkAgent.h; sourceTree = "<group>"; };
+		4443F1C21CEEDBBE002053E0 /* YTKNetworkAgent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTKNetworkAgent.m; sourceTree = "<group>"; };
+		4443F1C31CEEDBBE002053E0 /* YTKNetworkConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTKNetworkConfig.h; sourceTree = "<group>"; };
+		4443F1C41CEEDBBE002053E0 /* YTKNetworkConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTKNetworkConfig.m; sourceTree = "<group>"; };
+		4443F1C51CEEDBBE002053E0 /* YTKNetworkPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTKNetworkPrivate.h; sourceTree = "<group>"; };
+		4443F1C61CEEDBBE002053E0 /* YTKNetworkPrivate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTKNetworkPrivate.m; sourceTree = "<group>"; };
+		4443F1C71CEEDBBE002053E0 /* YTKRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTKRequest.h; sourceTree = "<group>"; };
+		4443F1C81CEEDBBE002053E0 /* YTKRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTKRequest.m; sourceTree = "<group>"; };
+		4443F1DE1CEEDCF8002053E0 /* AFDownloadRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFDownloadRequestOperation.h; sourceTree = "<group>"; };
+		4443F1DF1CEEDCF8002053E0 /* AFDownloadRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFDownloadRequestOperation.m; sourceTree = "<group>"; };
+		4443F1E61CEEE534002053E0 /* LCEPictureModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCEPictureModel.h; sourceTree = "<group>"; };
+		4443F1E71CEEE534002053E0 /* LCEPictureModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCEPictureModel.m; sourceTree = "<group>"; };
+		4443F1E91CEEE618002053E0 /* LCEPictureContentModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCEPictureContentModel.h; sourceTree = "<group>"; };
+		4443F1EA1CEEE618002053E0 /* LCEPictureContentModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCEPictureContentModel.m; sourceTree = "<group>"; };
+		4443F1EC1CEEE769002053E0 /* LCEPictureListModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCEPictureListModel.h; sourceTree = "<group>"; };
+		4443F1ED1CEEE769002053E0 /* LCEPictureListModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCEPictureListModel.m; sourceTree = "<group>"; };
 		44B570781CED5627001067B2 /* UIImage+Original.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Original.h"; sourceTree = "<group>"; };
 		44B570791CED5627001067B2 /* UIImage+Original.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Original.m"; sourceTree = "<group>"; };
 		44B5707D1CED6A41001067B2 /* HappySmile.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HappySmile.pch; sourceTree = "<group>"; };
@@ -103,6 +148,9 @@
 		44B570831CED9EB6001067B2 /* LCEBaseRequestAccessory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCEBaseRequestAccessory.m; sourceTree = "<group>"; };
 		44B570851CEDA229001067B2 /* NSString+Empty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+Empty.h"; path = "LCEHappySmile/Categories/NSString+Empty.h"; sourceTree = SOURCE_ROOT; };
 		44B570861CEDA229001067B2 /* NSString+Empty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+Empty.m"; path = "LCEHappySmile/Categories/NSString+Empty.m"; sourceTree = SOURCE_ROOT; };
+		58914D57A69F574C5891A74F /* libPods-LCEHappySmileTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LCEHappySmileTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA5E84AF069EEFCF1BC80BCE /* Pods-LCEHappySmileTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LCEHappySmileTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LCEHappySmileTests/Pods-LCEHappySmileTests.release.xcconfig"; sourceTree = "<group>"; };
+		ED9DDFE4FBE8F6745CFD5D26 /* Pods-LCEHappySmileTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LCEHappySmileTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LCEHappySmileTests/Pods-LCEHappySmileTests.debug.xcconfig"; sourceTree = "<group>"; };
 		F725FE213FE425DE0534CCBD /* Pods-LCEHappySmile.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LCEHappySmile.release.xcconfig"; path = "Pods/Target Support Files/Pods-LCEHappySmile/Pods-LCEHappySmile.release.xcconfig"; sourceTree = "<group>"; };
 		F8D58F73061BC85CF2C16F38 /* Pods-LCEHappySmile.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LCEHappySmile.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LCEHappySmile/Pods-LCEHappySmile.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -120,6 +168,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D44355B8D6EE21664DBE7F1 /* libPods-LCEHappySmileTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -163,8 +212,10 @@
 				44B5707C1CED6266001067B2 /* Base */,
 				44B570771CED55BB001067B2 /* Categories */,
 				441652CA1CEC5A41003FEB9D /* Controller */,
+				4443F1E11CEEE1F0002053E0 /* Model */,
 				44B5707B1CED6241001067B2 /* View */,
 				443E901E1CEDBCB600D3BA93 /* Vendor */,
+				4443F18C1CEEA209002053E0 /* Network */,
 				441652971CEC518F003FEB9D /* Supporting Files */,
 			);
 			path = LCEHappySmile;
@@ -189,6 +240,7 @@
 			children = (
 				441652B11CEC5190003FEB9D /* LCEHappySmileTests.m */,
 				441652B31CEC5190003FEB9D /* Info.plist */,
+				4443F1921CEEB933002053E0 /* LCEPictureTests.m */,
 			);
 			path = LCEHappySmileTests;
 			sourceTree = "<group>";
@@ -242,6 +294,9 @@
 		443E901E1CEDBCB600D3BA93 /* Vendor */ = {
 			isa = PBXGroup;
 			children = (
+				4443F1DE1CEEDCF8002053E0 /* AFDownloadRequestOperation.h */,
+				4443F1DF1CEEDCF8002053E0 /* AFDownloadRequestOperation.m */,
+				4443F1B61CEEDBBE002053E0 /* YTKNetwork */,
 				443E901F1CEDBD0700D3BA93 /* MTLManagedObjectAdapter */,
 			);
 			path = Vendor;
@@ -275,6 +330,62 @@
 				443E902E1CEDBEB000D3BA93 /* NSDate+BTAddition.m */,
 			);
 			path = NSDate;
+			sourceTree = "<group>";
+		};
+		4443F18C1CEEA209002053E0 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				4443F18D1CEEA27A002053E0 /* LCEPictureApi.h */,
+				4443F18E1CEEA27A002053E0 /* LCEPictureApi.m */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		4443F1B61CEEDBBE002053E0 /* YTKNetwork */ = {
+			isa = PBXGroup;
+			children = (
+				4443F1B71CEEDBBE002053E0 /* YTKBaseRequest.h */,
+				4443F1B81CEEDBBE002053E0 /* YTKBaseRequest.m */,
+				4443F1B91CEEDBBE002053E0 /* YTKBatchRequest.h */,
+				4443F1BA1CEEDBBE002053E0 /* YTKBatchRequest.m */,
+				4443F1BB1CEEDBBE002053E0 /* YTKBatchRequestAgent.h */,
+				4443F1BC1CEEDBBE002053E0 /* YTKBatchRequestAgent.m */,
+				4443F1BD1CEEDBBE002053E0 /* YTKChainRequest.h */,
+				4443F1BE1CEEDBBE002053E0 /* YTKChainRequest.m */,
+				4443F1BF1CEEDBBE002053E0 /* YTKChainRequestAgent.h */,
+				4443F1C01CEEDBBE002053E0 /* YTKChainRequestAgent.m */,
+				4443F1C11CEEDBBE002053E0 /* YTKNetworkAgent.h */,
+				4443F1C21CEEDBBE002053E0 /* YTKNetworkAgent.m */,
+				4443F1C31CEEDBBE002053E0 /* YTKNetworkConfig.h */,
+				4443F1C41CEEDBBE002053E0 /* YTKNetworkConfig.m */,
+				4443F1C51CEEDBBE002053E0 /* YTKNetworkPrivate.h */,
+				4443F1C61CEEDBBE002053E0 /* YTKNetworkPrivate.m */,
+				4443F1C71CEEDBBE002053E0 /* YTKRequest.h */,
+				4443F1C81CEEDBBE002053E0 /* YTKRequest.m */,
+			);
+			name = YTKNetwork;
+			path = MTLManagedObjectAdapter/YTKNetwork;
+			sourceTree = "<group>";
+		};
+		4443F1E11CEEE1F0002053E0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4443F1E21CEEE2E1002053E0 /* LCEPictureModel */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4443F1E21CEEE2E1002053E0 /* LCEPictureModel */ = {
+			isa = PBXGroup;
+			children = (
+				4443F1E61CEEE534002053E0 /* LCEPictureModel.h */,
+				4443F1E71CEEE534002053E0 /* LCEPictureModel.m */,
+				4443F1E91CEEE618002053E0 /* LCEPictureContentModel.h */,
+				4443F1EA1CEEE618002053E0 /* LCEPictureContentModel.m */,
+				4443F1EC1CEEE769002053E0 /* LCEPictureListModel.h */,
+				4443F1ED1CEEE769002053E0 /* LCEPictureListModel.m */,
+			);
+			path = LCEPictureModel;
 			sourceTree = "<group>";
 		};
 		44B570771CED55BB001067B2 /* Categories */ = {
@@ -323,6 +434,7 @@
 			isa = PBXGroup;
 			children = (
 				1CBB63389BD3213B6B3A324E /* libPods-LCEHappySmile.a */,
+				58914D57A69F574C5891A74F /* libPods-LCEHappySmileTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -332,6 +444,8 @@
 			children = (
 				F8D58F73061BC85CF2C16F38 /* Pods-LCEHappySmile.debug.xcconfig */,
 				F725FE213FE425DE0534CCBD /* Pods-LCEHappySmile.release.xcconfig */,
+				ED9DDFE4FBE8F6745CFD5D26 /* Pods-LCEHappySmileTests.debug.xcconfig */,
+				AA5E84AF069EEFCF1BC80BCE /* Pods-LCEHappySmileTests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -363,9 +477,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 441652C41CEC5190003FEB9D /* Build configuration list for PBXNativeTarget "LCEHappySmileTests" */;
 			buildPhases = (
+				FEF802737CA0E02B1FB4A8A5 /* Check Pods Manifest.lock */,
 				441652A91CEC5190003FEB9D /* Sources */,
 				441652AA1CEC5190003FEB9D /* Frameworks */,
 				441652AB1CEC5190003FEB9D /* Resources */,
+				159B156591369A9F5EFD5719 /* Embed Pods Frameworks */,
+				B8631E615FEB6ADA2A0EE0D9 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -470,6 +587,21 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		159B156591369A9F5EFD5719 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LCEHappySmileTests/Pods-LCEHappySmileTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		1B2C5BBE3940E6076E75B23D /* Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -515,6 +647,36 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
+		B8631E615FEB6ADA2A0EE0D9 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LCEHappySmileTests/Pods-LCEHappySmileTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FEF802737CA0E02B1FB4A8A5 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -526,18 +688,32 @@
 				443E90271CEDBD0700D3BA93 /* EXTRuntimeExtensions.m in Sources */,
 				443E901C1CEDBBBB00D3BA93 /* LCEBaseModel.m in Sources */,
 				441652E41CEC746D003FEB9D /* LCESoundViewController.m in Sources */,
+				4443F1CD1CEEDBBE002053E0 /* YTKChainRequestAgent.m in Sources */,
 				443E90281CEDBD0700D3BA93 /* MTLManagedObjectAdapter.m in Sources */,
+				4443F1CA1CEEDBBE002053E0 /* YTKBatchRequest.m in Sources */,
+				4443F1EB1CEEE618002053E0 /* LCEPictureContentModel.m in Sources */,
 				441652CE1CEC6B81003FEB9D /* LCEMainTabBarController.m in Sources */,
 				4416529C1CEC518F003FEB9D /* AppDelegate.m in Sources */,
+				4443F1E81CEEE534002053E0 /* LCEPictureModel.m in Sources */,
 				441652D51CEC7362003FEB9D /* LCETextViewController.m in Sources */,
 				441652991CEC518F003FEB9D /* main.m in Sources */,
 				44B570841CED9EB6001067B2 /* LCEBaseRequestAccessory.m in Sources */,
 				443E902F1CEDBEB000D3BA93 /* NSDate+BTAddition.m in Sources */,
+				4443F1CF1CEEDBBE002053E0 /* YTKNetworkConfig.m in Sources */,
+				4443F1D01CEEDBBE002053E0 /* YTKNetworkPrivate.m in Sources */,
+				4443F18F1CEEA27A002053E0 /* LCEPictureApi.m in Sources */,
 				44B5707A1CED5627001067B2 /* UIImage+Original.m in Sources */,
+				4443F1C91CEEDBBE002053E0 /* YTKBaseRequest.m in Sources */,
+				4443F1E01CEEDCF8002053E0 /* AFDownloadRequestOperation.m in Sources */,
 				443E902B1CEDBE4B00D3BA93 /* NSString+Contain.m in Sources */,
 				441652DF1CEC745E003FEB9D /* LCEVideoViewController.m in Sources */,
 				44B570811CED9BE5001067B2 /* LCEBaseRequest.m in Sources */,
 				44B570871CEDA229001067B2 /* NSString+Empty.m in Sources */,
+				4443F1CC1CEEDBBE002053E0 /* YTKChainRequest.m in Sources */,
+				4443F1CB1CEEDBBE002053E0 /* YTKBatchRequestAgent.m in Sources */,
+				4443F1D11CEEDBBE002053E0 /* YTKRequest.m in Sources */,
+				4443F1CE1CEEDBBE002053E0 /* YTKNetworkAgent.m in Sources */,
+				4443F1EE1CEEE769002053E0 /* LCEPictureListModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -546,6 +722,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				441652B21CEC5190003FEB9D /* LCEHappySmileTests.m in Sources */,
+				4443F1931CEEB933002053E0 /* LCEPictureTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -698,6 +875,7 @@
 		};
 		441652C51CEC5190003FEB9D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED9DDFE4FBE8F6745CFD5D26 /* Pods-LCEHappySmileTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = LCEHappySmileTests/Info.plist;
@@ -710,6 +888,7 @@
 		};
 		441652C61CEC5190003FEB9D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA5E84AF069EEFCF1BC80BCE /* Pods-LCEHappySmileTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = LCEHappySmileTests/Info.plist;
