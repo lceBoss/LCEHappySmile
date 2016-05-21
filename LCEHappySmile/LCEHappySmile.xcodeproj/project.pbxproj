@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		440547791CF001BD006B9269 /* LCETextApi.m in Sources */ = {isa = PBXBuildFile; fileRef = 440547781CF001BD006B9269 /* LCETextApi.m */; };
+		4405477B1CF0026E006B9269 /* LCETextTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4405477A1CF0026E006B9269 /* LCETextTests.m */; };
+		4405477E1CF0033D006B9269 /* LCETextModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4405477D1CF0033D006B9269 /* LCETextModel.m */; };
+		440547811CF00356006B9269 /* LCETextContentModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 440547801CF00356006B9269 /* LCETextContentModel.m */; };
+		440547841CF00367006B9269 /* LCETextListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 440547831CF00367006B9269 /* LCETextListModel.m */; };
+		440547881CF00832006B9269 /* LCETextListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 440547861CF00832006B9269 /* LCETextListTableViewCell.m */; };
+		440547891CF00832006B9269 /* LCETextListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 440547871CF00832006B9269 /* LCETextListTableViewCell.xib */; };
 		441652991CEC518F003FEB9D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 441652981CEC518F003FEB9D /* main.m */; };
 		4416529C1CEC518F003FEB9D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4416529B1CEC518F003FEB9D /* AppDelegate.m */; };
 		441652A41CEC518F003FEB9D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 441652A31CEC518F003FEB9D /* Assets.xcassets */; };
@@ -42,6 +49,10 @@
 		4443F1E81CEEE534002053E0 /* LCEPictureModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4443F1E71CEEE534002053E0 /* LCEPictureModel.m */; };
 		4443F1EB1CEEE618002053E0 /* LCEPictureContentModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4443F1EA1CEEE618002053E0 /* LCEPictureContentModel.m */; };
 		4443F1EE1CEEE769002053E0 /* LCEPictureListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4443F1ED1CEEE769002053E0 /* LCEPictureListModel.m */; };
+		4443F1F21CEF051E002053E0 /* LCEPictureListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4443F1F01CEF051E002053E0 /* LCEPictureListTableViewCell.m */; };
+		4443F1F31CEF051E002053E0 /* LCEPictureListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4443F1F11CEF051E002053E0 /* LCEPictureListTableViewCell.xib */; };
+		4443F1F61CEF1AC9002053E0 /* loading.gif in Resources */ = {isa = PBXBuildFile; fileRef = 4443F1F41CEF1AC9002053E0 /* loading.gif */; };
+		4443F1F71CEF1AC9002053E0 /* loadings.gif in Resources */ = {isa = PBXBuildFile; fileRef = 4443F1F51CEF1AC9002053E0 /* loadings.gif */; };
 		44B5707A1CED5627001067B2 /* UIImage+Original.m in Sources */ = {isa = PBXBuildFile; fileRef = 44B570791CED5627001067B2 /* UIImage+Original.m */; };
 		44B570811CED9BE5001067B2 /* LCEBaseRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 44B570801CED9BE5001067B2 /* LCEBaseRequest.m */; };
 		44B570841CED9EB6001067B2 /* LCEBaseRequestAccessory.m in Sources */ = {isa = PBXBuildFile; fileRef = 44B570831CED9EB6001067B2 /* LCEBaseRequestAccessory.m */; };
@@ -69,6 +80,18 @@
 
 /* Begin PBXFileReference section */
 		1CBB63389BD3213B6B3A324E /* libPods-LCEHappySmile.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LCEHappySmile.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		440547771CF001BD006B9269 /* LCETextApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCETextApi.h; sourceTree = "<group>"; };
+		440547781CF001BD006B9269 /* LCETextApi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCETextApi.m; sourceTree = "<group>"; };
+		4405477A1CF0026E006B9269 /* LCETextTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCETextTests.m; sourceTree = "<group>"; };
+		4405477C1CF0033D006B9269 /* LCETextModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCETextModel.h; sourceTree = "<group>"; };
+		4405477D1CF0033D006B9269 /* LCETextModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCETextModel.m; sourceTree = "<group>"; };
+		4405477F1CF00356006B9269 /* LCETextContentModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCETextContentModel.h; sourceTree = "<group>"; };
+		440547801CF00356006B9269 /* LCETextContentModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCETextContentModel.m; sourceTree = "<group>"; };
+		440547821CF00367006B9269 /* LCETextListModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCETextListModel.h; sourceTree = "<group>"; };
+		440547831CF00367006B9269 /* LCETextListModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCETextListModel.m; sourceTree = "<group>"; };
+		440547851CF00832006B9269 /* LCETextListTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCETextListTableViewCell.h; sourceTree = "<group>"; };
+		440547861CF00832006B9269 /* LCETextListTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCETextListTableViewCell.m; sourceTree = "<group>"; };
+		440547871CF00832006B9269 /* LCETextListTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LCETextListTableViewCell.xib; sourceTree = "<group>"; };
 		441652941CEC518F003FEB9D /* LCEHappySmile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LCEHappySmile.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		441652981CEC518F003FEB9D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4416529A1CEC518F003FEB9D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -138,6 +161,11 @@
 		4443F1EA1CEEE618002053E0 /* LCEPictureContentModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCEPictureContentModel.m; sourceTree = "<group>"; };
 		4443F1EC1CEEE769002053E0 /* LCEPictureListModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCEPictureListModel.h; sourceTree = "<group>"; };
 		4443F1ED1CEEE769002053E0 /* LCEPictureListModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCEPictureListModel.m; sourceTree = "<group>"; };
+		4443F1EF1CEF051E002053E0 /* LCEPictureListTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCEPictureListTableViewCell.h; sourceTree = "<group>"; };
+		4443F1F01CEF051E002053E0 /* LCEPictureListTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCEPictureListTableViewCell.m; sourceTree = "<group>"; };
+		4443F1F11CEF051E002053E0 /* LCEPictureListTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LCEPictureListTableViewCell.xib; sourceTree = "<group>"; };
+		4443F1F41CEF1AC9002053E0 /* loading.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = loading.gif; sourceTree = "<group>"; };
+		4443F1F51CEF1AC9002053E0 /* loadings.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = loadings.gif; sourceTree = "<group>"; };
 		44B570781CED5627001067B2 /* UIImage+Original.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Original.h"; sourceTree = "<group>"; };
 		44B570791CED5627001067B2 /* UIImage+Original.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Original.m"; sourceTree = "<group>"; };
 		44B5707D1CED6A41001067B2 /* HappySmile.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HappySmile.pch; sourceTree = "<group>"; };
@@ -182,6 +210,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		440547761CF00159006B9269 /* LCETextModel */ = {
+			isa = PBXGroup;
+			children = (
+				4405477C1CF0033D006B9269 /* LCETextModel.h */,
+				4405477D1CF0033D006B9269 /* LCETextModel.m */,
+				4405477F1CF00356006B9269 /* LCETextContentModel.h */,
+				440547801CF00356006B9269 /* LCETextContentModel.m */,
+				440547821CF00367006B9269 /* LCETextListModel.h */,
+				440547831CF00367006B9269 /* LCETextListModel.m */,
+			);
+			path = LCETextModel;
+			sourceTree = "<group>";
+		};
 		4416528B1CEC518F003FEB9D = {
 			isa = PBXGroup;
 			children = (
@@ -224,6 +265,8 @@
 		441652971CEC518F003FEB9D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				4443F1F41CEF1AC9002053E0 /* loading.gif */,
+				4443F1F51CEF1AC9002053E0 /* loadings.gif */,
 				441652A31CEC518F003FEB9D /* Assets.xcassets */,
 				441652A81CEC518F003FEB9D /* Info.plist */,
 				441652A51CEC518F003FEB9D /* LaunchScreen.storyboard */,
@@ -238,9 +281,10 @@
 		441652B01CEC5190003FEB9D /* LCEHappySmileTests */ = {
 			isa = PBXGroup;
 			children = (
-				441652B11CEC5190003FEB9D /* LCEHappySmileTests.m */,
 				441652B31CEC5190003FEB9D /* Info.plist */,
+				441652B11CEC5190003FEB9D /* LCEHappySmileTests.m */,
 				4443F1921CEEB933002053E0 /* LCEPictureTests.m */,
+				4405477A1CF0026E006B9269 /* LCETextTests.m */,
 			);
 			path = LCEHappySmileTests;
 			sourceTree = "<group>";
@@ -337,6 +381,8 @@
 			children = (
 				4443F18D1CEEA27A002053E0 /* LCEPictureApi.h */,
 				4443F18E1CEEA27A002053E0 /* LCEPictureApi.m */,
+				440547771CF001BD006B9269 /* LCETextApi.h */,
+				440547781CF001BD006B9269 /* LCETextApi.m */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -371,6 +417,7 @@
 			isa = PBXGroup;
 			children = (
 				4443F1E21CEEE2E1002053E0 /* LCEPictureModel */,
+				440547761CF00159006B9269 /* LCETextModel */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -402,6 +449,12 @@
 		44B5707B1CED6241001067B2 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				4443F1EF1CEF051E002053E0 /* LCEPictureListTableViewCell.h */,
+				4443F1F01CEF051E002053E0 /* LCEPictureListTableViewCell.m */,
+				4443F1F11CEF051E002053E0 /* LCEPictureListTableViewCell.xib */,
+				440547851CF00832006B9269 /* LCETextListTableViewCell.h */,
+				440547861CF00832006B9269 /* LCETextListTableViewCell.m */,
+				440547871CF00832006B9269 /* LCETextListTableViewCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -562,9 +615,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				441652E01CEC745E003FEB9D /* LCEVideoViewController.xib in Resources */,
+				440547891CF00832006B9269 /* LCETextListTableViewCell.xib in Resources */,
+				4443F1F71CEF1AC9002053E0 /* loadings.gif in Resources */,
 				441652DB1CEC7446003FEB9D /* LCEPictureViewController.xib in Resources */,
+				4443F1F31CEF051E002053E0 /* LCEPictureListTableViewCell.xib in Resources */,
 				441652A71CEC518F003FEB9D /* LaunchScreen.storyboard in Resources */,
 				441652E51CEC746D003FEB9D /* LCESoundViewController.xib in Resources */,
+				4443F1F61CEF1AC9002053E0 /* loading.gif in Resources */,
 				441652D61CEC7362003FEB9D /* LCETextViewController.xib in Resources */,
 				441652A41CEC518F003FEB9D /* Assets.xcassets in Resources */,
 			);
@@ -690,7 +747,9 @@
 				441652E41CEC746D003FEB9D /* LCESoundViewController.m in Sources */,
 				4443F1CD1CEEDBBE002053E0 /* YTKChainRequestAgent.m in Sources */,
 				443E90281CEDBD0700D3BA93 /* MTLManagedObjectAdapter.m in Sources */,
+				440547841CF00367006B9269 /* LCETextListModel.m in Sources */,
 				4443F1CA1CEEDBBE002053E0 /* YTKBatchRequest.m in Sources */,
+				440547811CF00356006B9269 /* LCETextContentModel.m in Sources */,
 				4443F1EB1CEEE618002053E0 /* LCEPictureContentModel.m in Sources */,
 				441652CE1CEC6B81003FEB9D /* LCEMainTabBarController.m in Sources */,
 				4416529C1CEC518F003FEB9D /* AppDelegate.m in Sources */,
@@ -698,6 +757,8 @@
 				441652D51CEC7362003FEB9D /* LCETextViewController.m in Sources */,
 				441652991CEC518F003FEB9D /* main.m in Sources */,
 				44B570841CED9EB6001067B2 /* LCEBaseRequestAccessory.m in Sources */,
+				4443F1F21CEF051E002053E0 /* LCEPictureListTableViewCell.m in Sources */,
+				440547881CF00832006B9269 /* LCETextListTableViewCell.m in Sources */,
 				443E902F1CEDBEB000D3BA93 /* NSDate+BTAddition.m in Sources */,
 				4443F1CF1CEEDBBE002053E0 /* YTKNetworkConfig.m in Sources */,
 				4443F1D01CEEDBBE002053E0 /* YTKNetworkPrivate.m in Sources */,
@@ -709,6 +770,8 @@
 				441652DF1CEC745E003FEB9D /* LCEVideoViewController.m in Sources */,
 				44B570811CED9BE5001067B2 /* LCEBaseRequest.m in Sources */,
 				44B570871CEDA229001067B2 /* NSString+Empty.m in Sources */,
+				4405477E1CF0033D006B9269 /* LCETextModel.m in Sources */,
+				440547791CF001BD006B9269 /* LCETextApi.m in Sources */,
 				4443F1CC1CEEDBBE002053E0 /* YTKChainRequest.m in Sources */,
 				4443F1CB1CEEDBBE002053E0 /* YTKBatchRequestAgent.m in Sources */,
 				4443F1D11CEEDBBE002053E0 /* YTKRequest.m in Sources */,
@@ -721,6 +784,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4405477B1CF0026E006B9269 /* LCETextTests.m in Sources */,
 				441652B21CEC5190003FEB9D /* LCEHappySmileTests.m in Sources */,
 				4443F1931CEEB933002053E0 /* LCEPictureTests.m in Sources */,
 			);

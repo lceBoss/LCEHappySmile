@@ -49,10 +49,10 @@ return instance; \
 #define LCE_BG_COLOR [UIColor colorWithRed:242/255.0 green:242/255.0 blue:242/255.0 alpha:1.0]
 
 //weakSelf
-#define KNB_WS(weakSelf)  __weak __typeof(self)weakSelf = self;
+#define LCE_WS(weakSelf)  __weak __typeof(self)weakSelf = self;
 
 //strongSelf
-#define KNB_SS(strongSelf, weakSelf) __strong __typeof(weakSelf)strongSelf = weakSelf;
+#define LCE_SS(strongSelf, weakSelf) __strong __typeof(weakSelf)strongSelf = weakSelf;
 
 
 #endif /* LCEPrecompile_h */
