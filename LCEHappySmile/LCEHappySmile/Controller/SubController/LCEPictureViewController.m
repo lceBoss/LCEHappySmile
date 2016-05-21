@@ -27,7 +27,6 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.title = @"图片";
-    
     _page = 1;
     [self requestWithData:_page];
     [self addMJRefreshFootView];
@@ -57,15 +56,15 @@
     cell.titleLabel.text = model.title;
     cell.dateLabel.text = model.ct;
     
-    NSString  *name = @"loadings.gif";
+//    NSString  *name = @"loadings.gif";
+//    
+//    NSString  *filePath = [[NSBundle bundleWithPath:[[NSBundle mainBundle] bundlePath]] pathForResource:name ofType:nil];
+//    
+//    NSData  *imageData = [NSData dataWithContentsOfFile:filePath];
+//    
+//    cell.jokeImageView.backgroundColor = [UIColor clearColor];
     
-    NSString  *filePath = [[NSBundle bundleWithPath:[[NSBundle mainBundle] bundlePath]] pathForResource:name ofType:nil];
-    
-    NSData  *imageData = [NSData dataWithContentsOfFile:filePath];
-    
-    cell.jokeImageView.backgroundColor = [UIColor clearColor];
-    
-    [cell.jokeImageView sd_setImageWithURL:[NSURL URLWithString:model.img] placeholderImage:[UIImage sd_animatedGIFWithData:imageData]];
+    [cell.jokeImageView sd_setImageWithURL:[NSURL URLWithString:model.img] placeholderImage:[UIImage imageNamed:@"loading.jpg"]];
     
     return cell;
 }
@@ -84,6 +83,9 @@
 
 - (void)requestWithData:(NSInteger)page {
     LCEPictureApi *api = [[LCEPictureApi alloc] initWithPage:page];
+    if (page == 1) {
+        api.needHud = YES;
+    }
     [api startWithCompletionBlockWithSuccess:^(__kindof YTKBaseRequest *request) {
         if (request.responseStatusCode == 200) {
             LCEPictureModel *model = [LCEPictureModel changeResponseJSONObject:request.responseJSONObject];

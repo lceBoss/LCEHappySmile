@@ -77,6 +77,9 @@
 
 - (void)requestWithData:(NSInteger)page {
     LCETextApi *api = [[LCETextApi alloc] initWithPage:page];
+    if (page == 1) {
+        api.needHud = YES;
+    }
     [api startWithCompletionBlockWithSuccess:^(__kindof YTKBaseRequest *request) {
         if (request.responseStatusCode == 200) {
             LCETextModel *model = [LCETextModel changeResponseJSONObject:request.responseJSONObject];

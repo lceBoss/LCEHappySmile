@@ -14,6 +14,15 @@
 		440547841CF00367006B9269 /* LCETextListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 440547831CF00367006B9269 /* LCETextListModel.m */; };
 		440547881CF00832006B9269 /* LCETextListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 440547861CF00832006B9269 /* LCETextListTableViewCell.m */; };
 		440547891CF00832006B9269 /* LCETextListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 440547871CF00832006B9269 /* LCETextListTableViewCell.xib */; };
+		4405478B1CF01180006B9269 /* loading.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4405478A1CF01180006B9269 /* loading.jpg */; };
+		4405478E1CF01C67006B9269 /* LCEVideoApi.m in Sources */ = {isa = PBXBuildFile; fileRef = 4405478D1CF01C67006B9269 /* LCEVideoApi.m */; };
+		440547901CF0218D006B9269 /* LCEVideoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4405478F1CF0218D006B9269 /* LCEVideoTests.m */; };
+		440547941CF0450A006B9269 /* LCEVideoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 440547931CF0450A006B9269 /* LCEVideoModel.m */; };
+		440547971CF04604006B9269 /* LCEVideoSidListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 440547961CF04604006B9269 /* LCEVideoSidListModel.m */; };
+		4405479A1CF04616006B9269 /* LCEVideoListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 440547991CF04616006B9269 /* LCEVideoListModel.m */; };
+		4405479D1CF04915006B9269 /* LCEVideoTopicModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4405479C1CF04915006B9269 /* LCEVideoTopicModel.m */; };
+		440547A11CF05F15006B9269 /* LCEVideoListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4405479F1CF05F15006B9269 /* LCEVideoListTableViewCell.m */; };
+		440547A21CF05F15006B9269 /* LCEVideoListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 440547A01CF05F15006B9269 /* LCEVideoListTableViewCell.xib */; };
 		441652991CEC518F003FEB9D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 441652981CEC518F003FEB9D /* main.m */; };
 		4416529C1CEC518F003FEB9D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4416529B1CEC518F003FEB9D /* AppDelegate.m */; };
 		441652A41CEC518F003FEB9D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 441652A31CEC518F003FEB9D /* Assets.xcassets */; };
@@ -51,8 +60,6 @@
 		4443F1EE1CEEE769002053E0 /* LCEPictureListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4443F1ED1CEEE769002053E0 /* LCEPictureListModel.m */; };
 		4443F1F21CEF051E002053E0 /* LCEPictureListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4443F1F01CEF051E002053E0 /* LCEPictureListTableViewCell.m */; };
 		4443F1F31CEF051E002053E0 /* LCEPictureListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4443F1F11CEF051E002053E0 /* LCEPictureListTableViewCell.xib */; };
-		4443F1F61CEF1AC9002053E0 /* loading.gif in Resources */ = {isa = PBXBuildFile; fileRef = 4443F1F41CEF1AC9002053E0 /* loading.gif */; };
-		4443F1F71CEF1AC9002053E0 /* loadings.gif in Resources */ = {isa = PBXBuildFile; fileRef = 4443F1F51CEF1AC9002053E0 /* loadings.gif */; };
 		44B5707A1CED5627001067B2 /* UIImage+Original.m in Sources */ = {isa = PBXBuildFile; fileRef = 44B570791CED5627001067B2 /* UIImage+Original.m */; };
 		44B570811CED9BE5001067B2 /* LCEBaseRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 44B570801CED9BE5001067B2 /* LCEBaseRequest.m */; };
 		44B570841CED9EB6001067B2 /* LCEBaseRequestAccessory.m in Sources */ = {isa = PBXBuildFile; fileRef = 44B570831CED9EB6001067B2 /* LCEBaseRequestAccessory.m */; };
@@ -92,6 +99,21 @@
 		440547851CF00832006B9269 /* LCETextListTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCETextListTableViewCell.h; sourceTree = "<group>"; };
 		440547861CF00832006B9269 /* LCETextListTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCETextListTableViewCell.m; sourceTree = "<group>"; };
 		440547871CF00832006B9269 /* LCETextListTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LCETextListTableViewCell.xib; sourceTree = "<group>"; };
+		4405478A1CF01180006B9269 /* loading.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = loading.jpg; sourceTree = "<group>"; };
+		4405478C1CF01C67006B9269 /* LCEVideoApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCEVideoApi.h; sourceTree = "<group>"; };
+		4405478D1CF01C67006B9269 /* LCEVideoApi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCEVideoApi.m; sourceTree = "<group>"; };
+		4405478F1CF0218D006B9269 /* LCEVideoTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCEVideoTests.m; sourceTree = "<group>"; };
+		440547921CF0450A006B9269 /* LCEVideoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCEVideoModel.h; sourceTree = "<group>"; };
+		440547931CF0450A006B9269 /* LCEVideoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCEVideoModel.m; sourceTree = "<group>"; };
+		440547951CF04604006B9269 /* LCEVideoSidListModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCEVideoSidListModel.h; sourceTree = "<group>"; };
+		440547961CF04604006B9269 /* LCEVideoSidListModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCEVideoSidListModel.m; sourceTree = "<group>"; };
+		440547981CF04616006B9269 /* LCEVideoListModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCEVideoListModel.h; sourceTree = "<group>"; };
+		440547991CF04616006B9269 /* LCEVideoListModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCEVideoListModel.m; sourceTree = "<group>"; };
+		4405479B1CF04915006B9269 /* LCEVideoTopicModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCEVideoTopicModel.h; sourceTree = "<group>"; };
+		4405479C1CF04915006B9269 /* LCEVideoTopicModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCEVideoTopicModel.m; sourceTree = "<group>"; };
+		4405479E1CF05F15006B9269 /* LCEVideoListTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCEVideoListTableViewCell.h; sourceTree = "<group>"; };
+		4405479F1CF05F15006B9269 /* LCEVideoListTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCEVideoListTableViewCell.m; sourceTree = "<group>"; };
+		440547A01CF05F15006B9269 /* LCEVideoListTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LCEVideoListTableViewCell.xib; sourceTree = "<group>"; };
 		441652941CEC518F003FEB9D /* LCEHappySmile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LCEHappySmile.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		441652981CEC518F003FEB9D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4416529A1CEC518F003FEB9D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -164,8 +186,6 @@
 		4443F1EF1CEF051E002053E0 /* LCEPictureListTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCEPictureListTableViewCell.h; sourceTree = "<group>"; };
 		4443F1F01CEF051E002053E0 /* LCEPictureListTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCEPictureListTableViewCell.m; sourceTree = "<group>"; };
 		4443F1F11CEF051E002053E0 /* LCEPictureListTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LCEPictureListTableViewCell.xib; sourceTree = "<group>"; };
-		4443F1F41CEF1AC9002053E0 /* loading.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = loading.gif; sourceTree = "<group>"; };
-		4443F1F51CEF1AC9002053E0 /* loadings.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = loadings.gif; sourceTree = "<group>"; };
 		44B570781CED5627001067B2 /* UIImage+Original.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Original.h"; sourceTree = "<group>"; };
 		44B570791CED5627001067B2 /* UIImage+Original.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Original.m"; sourceTree = "<group>"; };
 		44B5707D1CED6A41001067B2 /* HappySmile.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HappySmile.pch; sourceTree = "<group>"; };
@@ -223,6 +243,21 @@
 			path = LCETextModel;
 			sourceTree = "<group>";
 		};
+		440547911CF044AA006B9269 /* LCEVideoModel */ = {
+			isa = PBXGroup;
+			children = (
+				440547921CF0450A006B9269 /* LCEVideoModel.h */,
+				440547931CF0450A006B9269 /* LCEVideoModel.m */,
+				440547951CF04604006B9269 /* LCEVideoSidListModel.h */,
+				440547961CF04604006B9269 /* LCEVideoSidListModel.m */,
+				440547981CF04616006B9269 /* LCEVideoListModel.h */,
+				440547991CF04616006B9269 /* LCEVideoListModel.m */,
+				4405479B1CF04915006B9269 /* LCEVideoTopicModel.h */,
+				4405479C1CF04915006B9269 /* LCEVideoTopicModel.m */,
+			);
+			path = LCEVideoModel;
+			sourceTree = "<group>";
+		};
 		4416528B1CEC518F003FEB9D = {
 			isa = PBXGroup;
 			children = (
@@ -265,8 +300,7 @@
 		441652971CEC518F003FEB9D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				4443F1F41CEF1AC9002053E0 /* loading.gif */,
-				4443F1F51CEF1AC9002053E0 /* loadings.gif */,
+				4405478A1CF01180006B9269 /* loading.jpg */,
 				441652A31CEC518F003FEB9D /* Assets.xcassets */,
 				441652A81CEC518F003FEB9D /* Info.plist */,
 				441652A51CEC518F003FEB9D /* LaunchScreen.storyboard */,
@@ -285,6 +319,7 @@
 				441652B11CEC5190003FEB9D /* LCEHappySmileTests.m */,
 				4443F1921CEEB933002053E0 /* LCEPictureTests.m */,
 				4405477A1CF0026E006B9269 /* LCETextTests.m */,
+				4405478F1CF0218D006B9269 /* LCEVideoTests.m */,
 			);
 			path = LCEHappySmileTests;
 			sourceTree = "<group>";
@@ -383,6 +418,8 @@
 				4443F18E1CEEA27A002053E0 /* LCEPictureApi.m */,
 				440547771CF001BD006B9269 /* LCETextApi.h */,
 				440547781CF001BD006B9269 /* LCETextApi.m */,
+				4405478C1CF01C67006B9269 /* LCEVideoApi.h */,
+				4405478D1CF01C67006B9269 /* LCEVideoApi.m */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -418,6 +455,7 @@
 			children = (
 				4443F1E21CEEE2E1002053E0 /* LCEPictureModel */,
 				440547761CF00159006B9269 /* LCETextModel */,
+				440547911CF044AA006B9269 /* LCEVideoModel */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -455,6 +493,9 @@
 				440547851CF00832006B9269 /* LCETextListTableViewCell.h */,
 				440547861CF00832006B9269 /* LCETextListTableViewCell.m */,
 				440547871CF00832006B9269 /* LCETextListTableViewCell.xib */,
+				4405479E1CF05F15006B9269 /* LCEVideoListTableViewCell.h */,
+				4405479F1CF05F15006B9269 /* LCEVideoListTableViewCell.m */,
+				440547A01CF05F15006B9269 /* LCEVideoListTableViewCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -616,13 +657,13 @@
 			files = (
 				441652E01CEC745E003FEB9D /* LCEVideoViewController.xib in Resources */,
 				440547891CF00832006B9269 /* LCETextListTableViewCell.xib in Resources */,
-				4443F1F71CEF1AC9002053E0 /* loadings.gif in Resources */,
 				441652DB1CEC7446003FEB9D /* LCEPictureViewController.xib in Resources */,
 				4443F1F31CEF051E002053E0 /* LCEPictureListTableViewCell.xib in Resources */,
 				441652A71CEC518F003FEB9D /* LaunchScreen.storyboard in Resources */,
 				441652E51CEC746D003FEB9D /* LCESoundViewController.xib in Resources */,
-				4443F1F61CEF1AC9002053E0 /* loading.gif in Resources */,
 				441652D61CEC7362003FEB9D /* LCETextViewController.xib in Resources */,
+				4405478B1CF01180006B9269 /* loading.jpg in Resources */,
+				440547A21CF05F15006B9269 /* LCEVideoListTableViewCell.xib in Resources */,
 				441652A41CEC518F003FEB9D /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -744,10 +785,13 @@
 				441652DA1CEC7446003FEB9D /* LCEPictureViewController.m in Sources */,
 				443E90271CEDBD0700D3BA93 /* EXTRuntimeExtensions.m in Sources */,
 				443E901C1CEDBBBB00D3BA93 /* LCEBaseModel.m in Sources */,
+				4405478E1CF01C67006B9269 /* LCEVideoApi.m in Sources */,
 				441652E41CEC746D003FEB9D /* LCESoundViewController.m in Sources */,
 				4443F1CD1CEEDBBE002053E0 /* YTKChainRequestAgent.m in Sources */,
+				4405479D1CF04915006B9269 /* LCEVideoTopicModel.m in Sources */,
 				443E90281CEDBD0700D3BA93 /* MTLManagedObjectAdapter.m in Sources */,
 				440547841CF00367006B9269 /* LCETextListModel.m in Sources */,
+				440547941CF0450A006B9269 /* LCEVideoModel.m in Sources */,
 				4443F1CA1CEEDBBE002053E0 /* YTKBatchRequest.m in Sources */,
 				440547811CF00356006B9269 /* LCETextContentModel.m in Sources */,
 				4443F1EB1CEEE618002053E0 /* LCEPictureContentModel.m in Sources */,
@@ -761,12 +805,14 @@
 				440547881CF00832006B9269 /* LCETextListTableViewCell.m in Sources */,
 				443E902F1CEDBEB000D3BA93 /* NSDate+BTAddition.m in Sources */,
 				4443F1CF1CEEDBBE002053E0 /* YTKNetworkConfig.m in Sources */,
+				4405479A1CF04616006B9269 /* LCEVideoListModel.m in Sources */,
 				4443F1D01CEEDBBE002053E0 /* YTKNetworkPrivate.m in Sources */,
 				4443F18F1CEEA27A002053E0 /* LCEPictureApi.m in Sources */,
 				44B5707A1CED5627001067B2 /* UIImage+Original.m in Sources */,
 				4443F1C91CEEDBBE002053E0 /* YTKBaseRequest.m in Sources */,
 				4443F1E01CEEDCF8002053E0 /* AFDownloadRequestOperation.m in Sources */,
 				443E902B1CEDBE4B00D3BA93 /* NSString+Contain.m in Sources */,
+				440547971CF04604006B9269 /* LCEVideoSidListModel.m in Sources */,
 				441652DF1CEC745E003FEB9D /* LCEVideoViewController.m in Sources */,
 				44B570811CED9BE5001067B2 /* LCEBaseRequest.m in Sources */,
 				44B570871CEDA229001067B2 /* NSString+Empty.m in Sources */,
@@ -774,6 +820,7 @@
 				440547791CF001BD006B9269 /* LCETextApi.m in Sources */,
 				4443F1CC1CEEDBBE002053E0 /* YTKChainRequest.m in Sources */,
 				4443F1CB1CEEDBBE002053E0 /* YTKBatchRequestAgent.m in Sources */,
+				440547A11CF05F15006B9269 /* LCEVideoListTableViewCell.m in Sources */,
 				4443F1D11CEEDBBE002053E0 /* YTKRequest.m in Sources */,
 				4443F1CE1CEEDBBE002053E0 /* YTKNetworkAgent.m in Sources */,
 				4443F1EE1CEEE769002053E0 /* LCEPictureListModel.m in Sources */,
@@ -784,6 +831,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				440547901CF0218D006B9269 /* LCEVideoTests.m in Sources */,
 				4405477B1CF0026E006B9269 /* LCETextTests.m in Sources */,
 				441652B21CEC5190003FEB9D /* LCEHappySmileTests.m in Sources */,
 				4443F1931CEEB933002053E0 /* LCEPictureTests.m in Sources */,

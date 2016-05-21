@@ -31,25 +31,21 @@
 - (void)setUpViewControllers {
     LCEPictureViewController *pictureVC = [[LCEPictureViewController alloc] init];
     UINavigationController *naviPic = [[UINavigationController alloc] initWithRootViewController:pictureVC];
-    pictureVC.view.backgroundColor = [UIColor orangeColor];
     pictureVC.tabBarItem.title = @"图片";
     pictureVC.tabBarItem.image = [UIImage imageNamed:@"line_paint"];
     
     LCETextViewController *textVC = [[LCETextViewController alloc] init];
     UINavigationController *naviText = [[UINavigationController alloc] initWithRootViewController:textVC];
-    textVC.view.backgroundColor = [UIColor blueColor];
     textVC.tabBarItem.title = @"文字";
     textVC.tabBarItem.image = [UIImage imageNamed:@"line_map"];
     
     LCEVideoViewController *videoVC = [[LCEVideoViewController alloc] init];
     UINavigationController *naviVideo = [[UINavigationController alloc] initWithRootViewController:videoVC];
-    videoVC.view.backgroundColor = [UIColor greenColor];
     videoVC.tabBarItem.title = @"视频";
     videoVC.tabBarItem.image = [UIImage imageNamed:@"line_monitor"];
     
     LCESoundViewController *soundVC = [[LCESoundViewController alloc] init];
     UINavigationController *naviSound = [[UINavigationController alloc] initWithRootViewController:soundVC];
-    soundVC.view.backgroundColor = [UIColor purpleColor];
     soundVC.tabBarItem.title = @"声音";
     soundVC.tabBarItem.image = [UIImage imageNamed:@"tabbar_item_my_music"];
     
