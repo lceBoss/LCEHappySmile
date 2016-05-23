@@ -25,10 +25,9 @@
     AVPlayer *player=[AVPlayer playerWithURL:self.videoURL];
     [player play];
     [LCEVideoListTableViewCell sharedInstance].player = player;
+    [LCEVideoListTableViewCell sharedInstance].view.frame = CGRectMake(0, 0, self.coverButton.frame.size.width, self.coverButton.frame.size.height);
     [sender addSubview:[LCEVideoListTableViewCell sharedInstance].view];
-    [[LCEVideoListTableViewCell sharedInstance].view mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.edges.mas_equalTo(0);
-    }];
+    
 }
 
 //如果cell被复用了，需要把cell上的播放器删掉
@@ -43,7 +42,7 @@
 
 - (void)awakeFromNib {
     [super awakeFromNib];
-    // Initialization code
+    self.lineConstraintHeight.constant = 0.5;
 }
 
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated {

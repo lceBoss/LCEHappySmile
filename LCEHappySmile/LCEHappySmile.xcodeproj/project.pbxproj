@@ -60,6 +60,14 @@
 		4443F1EE1CEEE769002053E0 /* LCEPictureListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4443F1ED1CEEE769002053E0 /* LCEPictureListModel.m */; };
 		4443F1F21CEF051E002053E0 /* LCEPictureListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4443F1F01CEF051E002053E0 /* LCEPictureListTableViewCell.m */; };
 		4443F1F31CEF051E002053E0 /* LCEPictureListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4443F1F11CEF051E002053E0 /* LCEPictureListTableViewCell.xib */; };
+		44501DB61CF2A6900078DE49 /* LCESoundApi.m in Sources */ = {isa = PBXBuildFile; fileRef = 44501DB51CF2A6900078DE49 /* LCESoundApi.m */; };
+		44501DB81CF2A7C50078DE49 /* LCESoundTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 44501DB71CF2A7C50078DE49 /* LCESoundTests.m */; };
+		44501DBC1CF2A8D30078DE49 /* LCESoundModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 44501DBB1CF2A8D30078DE49 /* LCESoundModel.m */; };
+		44501DBF1CF2A9BB0078DE49 /* LCESoundAlbumModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 44501DBE1CF2A9BB0078DE49 /* LCESoundAlbumModel.m */; };
+		44501DC21CF2AA500078DE49 /* LCESoundContentModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 44501DC11CF2AA500078DE49 /* LCESoundContentModel.m */; };
+		44501DC51CF2ABA10078DE49 /* LCESoundListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 44501DC41CF2ABA10078DE49 /* LCESoundListModel.m */; };
+		44501DC91CF2B5680078DE49 /* LCESoundTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 44501DC71CF2B5680078DE49 /* LCESoundTableViewCell.m */; };
+		44501DCA1CF2B5680078DE49 /* LCESoundTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 44501DC81CF2B5680078DE49 /* LCESoundTableViewCell.xib */; };
 		44B5707A1CED5627001067B2 /* UIImage+Original.m in Sources */ = {isa = PBXBuildFile; fileRef = 44B570791CED5627001067B2 /* UIImage+Original.m */; };
 		44B570811CED9BE5001067B2 /* LCEBaseRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 44B570801CED9BE5001067B2 /* LCEBaseRequest.m */; };
 		44B570841CED9EB6001067B2 /* LCEBaseRequestAccessory.m in Sources */ = {isa = PBXBuildFile; fileRef = 44B570831CED9EB6001067B2 /* LCEBaseRequestAccessory.m */; };
@@ -186,6 +194,20 @@
 		4443F1EF1CEF051E002053E0 /* LCEPictureListTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCEPictureListTableViewCell.h; sourceTree = "<group>"; };
 		4443F1F01CEF051E002053E0 /* LCEPictureListTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCEPictureListTableViewCell.m; sourceTree = "<group>"; };
 		4443F1F11CEF051E002053E0 /* LCEPictureListTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LCEPictureListTableViewCell.xib; sourceTree = "<group>"; };
+		44501DB41CF2A6900078DE49 /* LCESoundApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCESoundApi.h; sourceTree = "<group>"; };
+		44501DB51CF2A6900078DE49 /* LCESoundApi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCESoundApi.m; sourceTree = "<group>"; };
+		44501DB71CF2A7C50078DE49 /* LCESoundTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCESoundTests.m; sourceTree = "<group>"; };
+		44501DBA1CF2A8D30078DE49 /* LCESoundModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCESoundModel.h; sourceTree = "<group>"; };
+		44501DBB1CF2A8D30078DE49 /* LCESoundModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCESoundModel.m; sourceTree = "<group>"; };
+		44501DBD1CF2A9BB0078DE49 /* LCESoundAlbumModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCESoundAlbumModel.h; sourceTree = "<group>"; };
+		44501DBE1CF2A9BB0078DE49 /* LCESoundAlbumModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCESoundAlbumModel.m; sourceTree = "<group>"; };
+		44501DC01CF2AA500078DE49 /* LCESoundContentModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCESoundContentModel.h; sourceTree = "<group>"; };
+		44501DC11CF2AA500078DE49 /* LCESoundContentModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCESoundContentModel.m; sourceTree = "<group>"; };
+		44501DC31CF2ABA10078DE49 /* LCESoundListModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCESoundListModel.h; sourceTree = "<group>"; };
+		44501DC41CF2ABA10078DE49 /* LCESoundListModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCESoundListModel.m; sourceTree = "<group>"; };
+		44501DC61CF2B5680078DE49 /* LCESoundTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCESoundTableViewCell.h; sourceTree = "<group>"; };
+		44501DC71CF2B5680078DE49 /* LCESoundTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCESoundTableViewCell.m; sourceTree = "<group>"; };
+		44501DC81CF2B5680078DE49 /* LCESoundTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LCESoundTableViewCell.xib; sourceTree = "<group>"; };
 		44B570781CED5627001067B2 /* UIImage+Original.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Original.h"; sourceTree = "<group>"; };
 		44B570791CED5627001067B2 /* UIImage+Original.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Original.m"; sourceTree = "<group>"; };
 		44B5707D1CED6A41001067B2 /* HappySmile.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HappySmile.pch; sourceTree = "<group>"; };
@@ -320,6 +342,7 @@
 				4443F1921CEEB933002053E0 /* LCEPictureTests.m */,
 				4405477A1CF0026E006B9269 /* LCETextTests.m */,
 				4405478F1CF0218D006B9269 /* LCEVideoTests.m */,
+				44501DB71CF2A7C50078DE49 /* LCESoundTests.m */,
 			);
 			path = LCEHappySmileTests;
 			sourceTree = "<group>";
@@ -420,6 +443,8 @@
 				440547781CF001BD006B9269 /* LCETextApi.m */,
 				4405478C1CF01C67006B9269 /* LCEVideoApi.h */,
 				4405478D1CF01C67006B9269 /* LCEVideoApi.m */,
+				44501DB41CF2A6900078DE49 /* LCESoundApi.h */,
+				44501DB51CF2A6900078DE49 /* LCESoundApi.m */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -456,6 +481,7 @@
 				4443F1E21CEEE2E1002053E0 /* LCEPictureModel */,
 				440547761CF00159006B9269 /* LCETextModel */,
 				440547911CF044AA006B9269 /* LCEVideoModel */,
+				44501DB91CF2A87D0078DE49 /* LCESoundModel */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -471,6 +497,21 @@
 				4443F1ED1CEEE769002053E0 /* LCEPictureListModel.m */,
 			);
 			path = LCEPictureModel;
+			sourceTree = "<group>";
+		};
+		44501DB91CF2A87D0078DE49 /* LCESoundModel */ = {
+			isa = PBXGroup;
+			children = (
+				44501DBA1CF2A8D30078DE49 /* LCESoundModel.h */,
+				44501DBB1CF2A8D30078DE49 /* LCESoundModel.m */,
+				44501DBD1CF2A9BB0078DE49 /* LCESoundAlbumModel.h */,
+				44501DBE1CF2A9BB0078DE49 /* LCESoundAlbumModel.m */,
+				44501DC01CF2AA500078DE49 /* LCESoundContentModel.h */,
+				44501DC11CF2AA500078DE49 /* LCESoundContentModel.m */,
+				44501DC31CF2ABA10078DE49 /* LCESoundListModel.h */,
+				44501DC41CF2ABA10078DE49 /* LCESoundListModel.m */,
+			);
+			path = LCESoundModel;
 			sourceTree = "<group>";
 		};
 		44B570771CED55BB001067B2 /* Categories */ = {
@@ -496,6 +537,9 @@
 				4405479E1CF05F15006B9269 /* LCEVideoListTableViewCell.h */,
 				4405479F1CF05F15006B9269 /* LCEVideoListTableViewCell.m */,
 				440547A01CF05F15006B9269 /* LCEVideoListTableViewCell.xib */,
+				44501DC61CF2B5680078DE49 /* LCESoundTableViewCell.h */,
+				44501DC71CF2B5680078DE49 /* LCESoundTableViewCell.m */,
+				44501DC81CF2B5680078DE49 /* LCESoundTableViewCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -662,6 +706,7 @@
 				441652A71CEC518F003FEB9D /* LaunchScreen.storyboard in Resources */,
 				441652E51CEC746D003FEB9D /* LCESoundViewController.xib in Resources */,
 				441652D61CEC7362003FEB9D /* LCETextViewController.xib in Resources */,
+				44501DCA1CF2B5680078DE49 /* LCESoundTableViewCell.xib in Resources */,
 				4405478B1CF01180006B9269 /* loading.jpg in Resources */,
 				440547A21CF05F15006B9269 /* LCEVideoListTableViewCell.xib in Resources */,
 				441652A41CEC518F003FEB9D /* Assets.xcassets in Resources */,
@@ -784,6 +829,7 @@
 			files = (
 				441652DA1CEC7446003FEB9D /* LCEPictureViewController.m in Sources */,
 				443E90271CEDBD0700D3BA93 /* EXTRuntimeExtensions.m in Sources */,
+				44501DC91CF2B5680078DE49 /* LCESoundTableViewCell.m in Sources */,
 				443E901C1CEDBBBB00D3BA93 /* LCEBaseModel.m in Sources */,
 				4405478E1CF01C67006B9269 /* LCEVideoApi.m in Sources */,
 				441652E41CEC746D003FEB9D /* LCESoundViewController.m in Sources */,
@@ -794,6 +840,7 @@
 				440547941CF0450A006B9269 /* LCEVideoModel.m in Sources */,
 				4443F1CA1CEEDBBE002053E0 /* YTKBatchRequest.m in Sources */,
 				440547811CF00356006B9269 /* LCETextContentModel.m in Sources */,
+				44501DC51CF2ABA10078DE49 /* LCESoundListModel.m in Sources */,
 				4443F1EB1CEEE618002053E0 /* LCEPictureContentModel.m in Sources */,
 				441652CE1CEC6B81003FEB9D /* LCEMainTabBarController.m in Sources */,
 				4416529C1CEC518F003FEB9D /* AppDelegate.m in Sources */,
@@ -802,6 +849,8 @@
 				441652991CEC518F003FEB9D /* main.m in Sources */,
 				44B570841CED9EB6001067B2 /* LCEBaseRequestAccessory.m in Sources */,
 				4443F1F21CEF051E002053E0 /* LCEPictureListTableViewCell.m in Sources */,
+				44501DC21CF2AA500078DE49 /* LCESoundContentModel.m in Sources */,
+				44501DBC1CF2A8D30078DE49 /* LCESoundModel.m in Sources */,
 				440547881CF00832006B9269 /* LCETextListTableViewCell.m in Sources */,
 				443E902F1CEDBEB000D3BA93 /* NSDate+BTAddition.m in Sources */,
 				4443F1CF1CEEDBBE002053E0 /* YTKNetworkConfig.m in Sources */,
@@ -821,8 +870,10 @@
 				4443F1CC1CEEDBBE002053E0 /* YTKChainRequest.m in Sources */,
 				4443F1CB1CEEDBBE002053E0 /* YTKBatchRequestAgent.m in Sources */,
 				440547A11CF05F15006B9269 /* LCEVideoListTableViewCell.m in Sources */,
+				44501DB61CF2A6900078DE49 /* LCESoundApi.m in Sources */,
 				4443F1D11CEEDBBE002053E0 /* YTKRequest.m in Sources */,
 				4443F1CE1CEEDBBE002053E0 /* YTKNetworkAgent.m in Sources */,
+				44501DBF1CF2A9BB0078DE49 /* LCESoundAlbumModel.m in Sources */,
 				4443F1EE1CEEE769002053E0 /* LCEPictureListModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -834,6 +885,7 @@
 				440547901CF0218D006B9269 /* LCEVideoTests.m in Sources */,
 				4405477B1CF0026E006B9269 /* LCETextTests.m in Sources */,
 				441652B21CEC5190003FEB9D /* LCEHappySmileTests.m in Sources */,
+				44501DB81CF2A7C50078DE49 /* LCESoundTests.m in Sources */,
 				4443F1931CEEB933002053E0 /* LCEPictureTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -961,12 +1013,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PREFIX_HEADER = "$(SRCROOT)/LCEHappySmile/HappySmile.pch";
 				INFOPLIST_FILE = LCEHappySmile/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.kenuokele.www.LCEHappySmile;
+				PRODUCT_BUNDLE_IDENTIFIER = gdfsgsdfgrfh;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -976,12 +1030,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PREFIX_HEADER = "$(SRCROOT)/LCEHappySmile/HappySmile.pch";
 				INFOPLIST_FILE = LCEHappySmile/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.kenuokele.www.LCEHappySmile;
+				PRODUCT_BUNDLE_IDENTIFIER = gdfsgsdfgrfh;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};

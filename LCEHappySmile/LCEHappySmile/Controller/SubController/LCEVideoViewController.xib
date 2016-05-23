@@ -16,7 +16,7 @@
             <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="kNi-hh-eFC">
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="none" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="kNi-hh-eFC">
                     <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     <connections>
@@ -32,7 +32,7 @@
                 <constraint firstItem="kNi-hh-eFC" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="ECQ-jg-Umo"/>
                 <constraint firstItem="kNi-hh-eFC" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="d5L-ma-Qya"/>
             </constraints>
-            <point key="canvasLocation" x="260" y="453"/>
+            <point key="canvasLocation" x="77" y="337"/>
         </view>
     </objects>
 </document>

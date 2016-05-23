@@ -1,19 +1,18 @@
 //
-//  LCEPictureListTableViewCell.m
+//  LCESoundTableViewCell.m
 //  LCEHappySmile
 //
-//  Created by 刘随义 on 16/5/20.
+//  Created by 刘随义 on 16/5/23.
 //  Copyright © 2016年 刘随义. All rights reserved.
 //
 
-#import "LCEPictureListTableViewCell.h"
+#import "LCESoundTableViewCell.h"
 
-@implementation LCEPictureListTableViewCell
+@implementation LCESoundTableViewCell
 
 - (void)awakeFromNib {
     [super awakeFromNib];
-    self.lineHeightConstraint.constant = 0.5;
-    self.jokeImageView.clipsToBounds = YES;
+    self.lineConstraintHeight.constant = 0.5;
 }
 
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated {

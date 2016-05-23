@@ -20,7 +20,7 @@
 }
 
 - (NSString *)requestUrl {
-    return [NSString stringWithFormat:@"http://apis.baidu.com/showapi_open_bus/showapi_joke/joke_pic?page=%d", _page];
+    return [NSString stringWithFormat:@"http://apis.baidu.com/showapi_open_bus/showapi_joke/joke_pic?page=%ld", (long)_page];
 }
 
 - (NSDictionary *)requestHeaderFieldValueDictionary {

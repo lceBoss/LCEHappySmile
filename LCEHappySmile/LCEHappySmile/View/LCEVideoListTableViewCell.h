@@ -15,5 +15,6 @@
 @property (weak, nonatomic) IBOutlet UILabel *dateLabel;
 
 @property (nonatomic, strong) NSURL *videoURL;
+@property (weak, nonatomic) IBOutlet NSLayoutConstraint *lineConstraintHeight;
 
 @end
