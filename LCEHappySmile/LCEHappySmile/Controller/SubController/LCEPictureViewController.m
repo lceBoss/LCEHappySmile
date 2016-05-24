@@ -7,7 +7,7 @@
 //
 
 #import "LCEPictureViewController.h"
-#import "LCEPictureListTableViewCell.h"
+#import "LCEPictureCollectionViewCell.h"
 #import "LCEPictureListModel.h"
 #import <UIImageView+WebCache.h>
 #import <UIImage+GIF.h>
@@ -17,13 +17,15 @@
 #import "LCEPictureContentModel.h"
 #import "LookBigPicViewController.h"
 
-@interface LCEPictureViewController () <UITableViewDelegate, UITableViewDataSource>
-@property (weak, nonatomic) IBOutlet UITableView *tableView;
+@interface LCEPictureViewController () <UICollectionViewDelegate, UICollectionViewDataSource>
+
+@property (weak, nonatomic) IBOutlet UICollectionView *collectionView;
 @property (nonatomic, strong) NSMutableArray *dataArray;
 @property (nonatomic, assign) NSInteger page;
 @end
 
 @implementation LCEPictureViewController
+static NSString * const reuseIdentifier = @"LCEPictureCollectionViewCell";
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -33,53 +35,39 @@
     [self addMJRefreshFootView];
     [self addMJRefreshHeadView];
     
+    self.collectionView.backgroundColor = [UIColor whiteColor];
+    
+    // Register cell classes
+    [self.collectionView registerNib:[UINib nibWithNibName:@"LCEPictureCollectionViewCell" bundle:nil] forCellWithReuseIdentifier:reuseIdentifier];
     
 }
 
 
-#pragma mark --- TableViewDataSource
-- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+#pragma mark --- CollectionViewDataSource
+- (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section {
     return self.dataArray.count;
 }
-- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    static NSString *identifier = @"LCEPictureListTableViewCell";
-    LCEPictureListTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:identifier];
-    if (cell == nil) {
-        cell = [[[NSBundle mainBundle] loadNibNamed:@"LCEPictureListTableViewCell" owner:self options:nil] lastObject];
-    }
+
+- (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath {
+    LCEPictureCollectionViewCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:reuseIdentifier forIndexPath:indexPath];
     LCEPictureListModel *model = self.dataArray[indexPath.row];
-    
-    cell.titleLabel.text = model.title;
-    cell.dateLabel.text = model.ct;
-    
-//    NSString  *name = @"loadings.gif";
-//    
-//    NSString  *filePath = [[NSBundle bundleWithPath:[[NSBundle mainBundle] bundlePath]] pathForResource:name ofType:nil];
-//    
-//    NSData  *imageData = [NSData dataWithContentsOfFile:filePath];
-//    
-//    cell.jokeImageView.backgroundColor = [UIColor clearColor];
-    
+//    cell.titleLabel.text = model.title;
+//    cell.dateLabel.text = model.ct;
     [cell.jokeImageView sd_setImageWithURL:[NSURL URLWithString:model.img] placeholderImage:[UIImage imageNamed:@"loading.jpg"]];
     
     return cell;
 }
 
+#pragma mark --- CollectionViewDelegate
 
-#pragma mark --- TableViewDelegate
-
-- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+- (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath {
     LCEPictureListModel *model = self.dataArray[indexPath.row];
     LookBigPicViewController *picVC = [[LookBigPicViewController alloc]init];
     NSArray *bigUrlStr = @[model.img];
     [picVC initWithAllBigUrlArray:bigUrlStr andSmallUrlArray:nil andTargets:self andIndex:0];
     [picVC bigPicDescribe:@[model.title]];
     [picVC pushChildViewControllerFromCenter];
-//    [picVC pushChildViewControllerWithArray:self.dataArray];
-    
-}
-- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
-    return 93;
+    //    [picVC pushChildViewControllerWithArray:self.dataArray];
 }
 
 #pragma mark --- Network
@@ -112,13 +100,13 @@
 }
 
 - (void)requestFailed:(BOOL)isFailed {
-    [self.tableView.mj_header endRefreshing];
-    [self.tableView.mj_footer endRefreshing];
+    [self.collectionView.mj_header endRefreshing];
+    [self.collectionView.mj_footer endRefreshing];
     if (self.page > 1 && isFailed) {
         self.page--;
     }
     else {
-        [self.tableView reloadData];
+        [self.collectionView reloadData];
     }
 }
 
@@ -126,14 +114,14 @@
 
 - (void)addMJRefreshHeadView {
     LCE_WS(weakSelf);
-    self.tableView.mj_header = [MJRefreshNormalHeader headerWithRefreshingBlock:^{
+    self.collectionView.mj_header = [MJRefreshNormalHeader headerWithRefreshingBlock:^{
         weakSelf.page = 1;
         [weakSelf requestWithData:weakSelf.page];
     }];
 }
 
 - (void)addMJRefreshFootView{
-    self.tableView.mj_footer = [MJRefreshBackNormalFooter footerWithRefreshingTarget:self refreshingAction:@selector(loadMoreData)];
+    self.collectionView.mj_footer = [MJRefreshBackNormalFooter footerWithRefreshingTarget:self refreshingAction:@selector(loadMoreData)];
 }
 
 - (void)loadMoreData {

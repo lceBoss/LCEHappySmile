@@ -13,6 +13,7 @@
 #import "LCETextContentModel.h"
 #import "LCETextListModel.h"
 #import "LCETextListTableViewCell.h"
+#import "LCETextDetailViewController.h"
 
 @interface LCETextViewController ()<UITableViewDelegate, UITableViewDataSource>
 
@@ -60,7 +61,9 @@
 #pragma mark --- TableViewDelegate
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-    
+    LCETextDetailViewController *detailTextVC = [[LCETextDetailViewController alloc] init];
+    detailTextVC.model = self.dataArray[indexPath.row];
+    [self.navigationController pushViewController:detailTextVC animated:YES];
 }
 
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {

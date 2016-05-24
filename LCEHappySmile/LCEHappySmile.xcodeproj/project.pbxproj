@@ -76,6 +76,10 @@
 		44FCD8C31CF3FE2A0026EAF5 /* PercentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 44FCD8BD1CF3FE2A0026EAF5 /* PercentView.m */; };
 		44FCD8C41CF3FE2A0026EAF5 /* PicImgScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 44FCD8BF1CF3FE2A0026EAF5 /* PicImgScrollView.m */; };
 		44FCD8C51CF3FE2A0026EAF5 /* UIImage+JSH.m in Sources */ = {isa = PBXBuildFile; fileRef = 44FCD8C11CF3FE2A0026EAF5 /* UIImage+JSH.m */; };
+		44FCD8C91CF428400026EAF5 /* LCEPictureCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 44FCD8C71CF428400026EAF5 /* LCEPictureCollectionViewCell.m */; };
+		44FCD8CA1CF428400026EAF5 /* LCEPictureCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 44FCD8C81CF428400026EAF5 /* LCEPictureCollectionViewCell.xib */; };
+		44FCD8CE1CF4480C0026EAF5 /* LCETextDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44FCD8CC1CF4480C0026EAF5 /* LCETextDetailViewController.m */; };
+		44FCD8CF1CF4480C0026EAF5 /* LCETextDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 44FCD8CD1CF4480C0026EAF5 /* LCETextDetailViewController.xib */; };
 		7D44355B8D6EE21664DBE7F1 /* libPods-LCEHappySmileTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 58914D57A69F574C5891A74F /* libPods-LCEHappySmileTests.a */; };
 		EA25F0577D355DEBA8E29BB4 /* libPods-LCEHappySmile.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CBB63389BD3213B6B3A324E /* libPods-LCEHappySmile.a */; };
 /* End PBXBuildFile section */
@@ -230,6 +234,12 @@
 		44FCD8BF1CF3FE2A0026EAF5 /* PicImgScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PicImgScrollView.m; sourceTree = "<group>"; };
 		44FCD8C01CF3FE2A0026EAF5 /* UIImage+JSH.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+JSH.h"; sourceTree = "<group>"; };
 		44FCD8C11CF3FE2A0026EAF5 /* UIImage+JSH.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+JSH.m"; sourceTree = "<group>"; };
+		44FCD8C61CF428400026EAF5 /* LCEPictureCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCEPictureCollectionViewCell.h; sourceTree = "<group>"; };
+		44FCD8C71CF428400026EAF5 /* LCEPictureCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCEPictureCollectionViewCell.m; sourceTree = "<group>"; };
+		44FCD8C81CF428400026EAF5 /* LCEPictureCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LCEPictureCollectionViewCell.xib; sourceTree = "<group>"; };
+		44FCD8CB1CF4480C0026EAF5 /* LCETextDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCETextDetailViewController.h; sourceTree = "<group>"; };
+		44FCD8CC1CF4480C0026EAF5 /* LCETextDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCETextDetailViewController.m; sourceTree = "<group>"; };
+		44FCD8CD1CF4480C0026EAF5 /* LCETextDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LCETextDetailViewController.xib; sourceTree = "<group>"; };
 		58914D57A69F574C5891A74F /* libPods-LCEHappySmileTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LCEHappySmileTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA5E84AF069EEFCF1BC80BCE /* Pods-LCEHappySmileTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LCEHappySmileTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LCEHappySmileTests/Pods-LCEHappySmileTests.release.xcconfig"; sourceTree = "<group>"; };
 		ED9DDFE4FBE8F6745CFD5D26 /* Pods-LCEHappySmileTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LCEHappySmileTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LCEHappySmileTests/Pods-LCEHappySmileTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -396,11 +406,14 @@
 				441652D31CEC7362003FEB9D /* LCETextViewController.m */,
 				441652D41CEC7362003FEB9D /* LCETextViewController.xib */,
 				441652DC1CEC745E003FEB9D /* LCEVideoViewController.h */,
-				441652DD1CEC745E003FEB9D /* LCEVideoViewController.m */,
 				441652DE1CEC745E003FEB9D /* LCEVideoViewController.xib */,
 				441652E11CEC746D003FEB9D /* LCESoundViewController.h */,
+				441652DD1CEC745E003FEB9D /* LCEVideoViewController.m */,
 				441652E21CEC746D003FEB9D /* LCESoundViewController.m */,
 				441652E31CEC746D003FEB9D /* LCESoundViewController.xib */,
+				44FCD8CB1CF4480C0026EAF5 /* LCETextDetailViewController.h */,
+				44FCD8CC1CF4480C0026EAF5 /* LCETextDetailViewController.m */,
+				44FCD8CD1CF4480C0026EAF5 /* LCETextDetailViewController.xib */,
 			);
 			path = SubController;
 			sourceTree = "<group>";
@@ -540,6 +553,9 @@
 		44B5707B1CED6241001067B2 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				44FCD8C61CF428400026EAF5 /* LCEPictureCollectionViewCell.h */,
+				44FCD8C71CF428400026EAF5 /* LCEPictureCollectionViewCell.m */,
+				44FCD8C81CF428400026EAF5 /* LCEPictureCollectionViewCell.xib */,
 				4443F1EF1CEF051E002053E0 /* LCEPictureListTableViewCell.h */,
 				4443F1F01CEF051E002053E0 /* LCEPictureListTableViewCell.m */,
 				4443F1F11CEF051E002053E0 /* LCEPictureListTableViewCell.xib */,
@@ -735,9 +751,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44FCD8CA1CF428400026EAF5 /* LCEPictureCollectionViewCell.xib in Resources */,
 				441652E01CEC745E003FEB9D /* LCEVideoViewController.xib in Resources */,
 				440547891CF00832006B9269 /* LCETextListTableViewCell.xib in Resources */,
 				441652DB1CEC7446003FEB9D /* LCEPictureViewController.xib in Resources */,
+				44FCD8CF1CF4480C0026EAF5 /* LCETextDetailViewController.xib in Resources */,
 				4443F1F31CEF051E002053E0 /* LCEPictureListTableViewCell.xib in Resources */,
 				441652A71CEC518F003FEB9D /* LaunchScreen.storyboard in Resources */,
 				441652E51CEC746D003FEB9D /* LCESoundViewController.xib in Resources */,
@@ -896,6 +914,7 @@
 				4405479A1CF04616006B9269 /* LCEVideoListModel.m in Sources */,
 				4443F1D01CEEDBBE002053E0 /* YTKNetworkPrivate.m in Sources */,
 				4443F18F1CEEA27A002053E0 /* LCEPictureApi.m in Sources */,
+				44FCD8CE1CF4480C0026EAF5 /* LCETextDetailViewController.m in Sources */,
 				44B5707A1CED5627001067B2 /* UIImage+Original.m in Sources */,
 				4443F1C91CEEDBBE002053E0 /* YTKBaseRequest.m in Sources */,
 				4443F1E01CEEDCF8002053E0 /* AFDownloadRequestOperation.m in Sources */,
@@ -913,6 +932,7 @@
 				4443F1D11CEEDBBE002053E0 /* YTKRequest.m in Sources */,
 				4443F1CE1CEEDBBE002053E0 /* YTKNetworkAgent.m in Sources */,
 				44501DBF1CF2A9BB0078DE49 /* LCESoundAlbumModel.m in Sources */,
+				44FCD8C91CF428400026EAF5 /* LCEPictureCollectionViewCell.m in Sources */,
 				44FCD8C41CF3FE2A0026EAF5 /* PicImgScrollView.m in Sources */,
 				4443F1EE1CEEE769002053E0 /* LCEPictureListModel.m in Sources */,
 			);

@@ -27,7 +27,7 @@
     NSDictionary *attribute = [NSDictionary dictionaryWithObjectsAndKeys:[UIFont boldSystemFontOfSize:18],NSFontAttributeName,[UIColor blackColor],NSForegroundColorAttributeName, nil];
     UINavigationBar *bar = [UINavigationBar appearance];
     [bar setTitleTextAttributes:attribute];
-    [bar setTintColor:[UIColor whiteColor]];
+    [bar setTintColor:[UIColor blackColor]];
     
     [self.window makeKeyAndVisible];
     
