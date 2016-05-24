@@ -15,6 +15,7 @@
 #import "LCEPictureApi.h"
 #import "LCEPictureModel.h"
 #import "LCEPictureContentModel.h"
+#import "LookBigPicViewController.h"
 
 @interface LCEPictureViewController () <UITableViewDelegate, UITableViewDataSource>
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
@@ -34,12 +35,7 @@
     
     
 }
-- (NSMutableArray *)dataArray {
-    if (!_dataArray) {
-        _dataArray = [NSMutableArray array];
-    }
-    return _dataArray;
-}
+
 
 #pragma mark --- TableViewDataSource
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
@@ -73,6 +69,13 @@
 #pragma mark --- TableViewDelegate
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    LCEPictureListModel *model = self.dataArray[indexPath.row];
+    LookBigPicViewController *picVC = [[LookBigPicViewController alloc]init];
+    NSArray *bigUrlStr = @[model.img];
+    [picVC initWithAllBigUrlArray:bigUrlStr andSmallUrlArray:nil andTargets:self andIndex:0];
+    [picVC bigPicDescribe:@[model.title]];
+    [picVC pushChildViewControllerFromCenter];
+//    [picVC pushChildViewControllerWithArray:self.dataArray];
     
 }
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
@@ -135,6 +138,15 @@
 
 - (void)loadMoreData {
     [self requestWithData:++self.page];
+}
+
+#pragma mark ---- Setter && Getter
+
+- (NSMutableArray *)dataArray {
+    if (!_dataArray) {
+        _dataArray = [NSMutableArray array];
+    }
+    return _dataArray;
 }
 
 

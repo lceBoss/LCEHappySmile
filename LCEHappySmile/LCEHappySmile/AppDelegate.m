@@ -28,7 +28,6 @@
     UINavigationBar *bar = [UINavigationBar appearance];
     [bar setTitleTextAttributes:attribute];
     [bar setTintColor:[UIColor whiteColor]];
-//    [bar setBarTintColor:];
     
     [self.window makeKeyAndVisible];
     

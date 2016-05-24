@@ -26,12 +26,6 @@
 @end
 
 @implementation LCESoundViewController
-- (NSMutableArray *)dataArray {
-    if (!_dataArray) {
-        _dataArray = [NSMutableArray array];
-    }
-    return _dataArray;
-}
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -140,5 +134,16 @@
     
     [self requestWithData:++self.page];
 }
+
+#pragma mark ---- Setter && Getter
+
+- (NSMutableArray *)dataArray {
+    if (!_dataArray) {
+        _dataArray = [NSMutableArray array];
+    }
+    return _dataArray;
+}
+
+
 
 @end

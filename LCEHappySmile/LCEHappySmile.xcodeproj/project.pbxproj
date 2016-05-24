@@ -72,6 +72,10 @@
 		44B570811CED9BE5001067B2 /* LCEBaseRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 44B570801CED9BE5001067B2 /* LCEBaseRequest.m */; };
 		44B570841CED9EB6001067B2 /* LCEBaseRequestAccessory.m in Sources */ = {isa = PBXBuildFile; fileRef = 44B570831CED9EB6001067B2 /* LCEBaseRequestAccessory.m */; };
 		44B570871CEDA229001067B2 /* NSString+Empty.m in Sources */ = {isa = PBXBuildFile; fileRef = 44B570861CEDA229001067B2 /* NSString+Empty.m */; };
+		44FCD8C21CF3FE2A0026EAF5 /* LookBigPicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44FCD8BB1CF3FE2A0026EAF5 /* LookBigPicViewController.m */; };
+		44FCD8C31CF3FE2A0026EAF5 /* PercentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 44FCD8BD1CF3FE2A0026EAF5 /* PercentView.m */; };
+		44FCD8C41CF3FE2A0026EAF5 /* PicImgScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 44FCD8BF1CF3FE2A0026EAF5 /* PicImgScrollView.m */; };
+		44FCD8C51CF3FE2A0026EAF5 /* UIImage+JSH.m in Sources */ = {isa = PBXBuildFile; fileRef = 44FCD8C11CF3FE2A0026EAF5 /* UIImage+JSH.m */; };
 		7D44355B8D6EE21664DBE7F1 /* libPods-LCEHappySmileTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 58914D57A69F574C5891A74F /* libPods-LCEHappySmileTests.a */; };
 		EA25F0577D355DEBA8E29BB4 /* libPods-LCEHappySmile.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CBB63389BD3213B6B3A324E /* libPods-LCEHappySmile.a */; };
 /* End PBXBuildFile section */
@@ -208,8 +212,8 @@
 		44501DC61CF2B5680078DE49 /* LCESoundTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCESoundTableViewCell.h; sourceTree = "<group>"; };
 		44501DC71CF2B5680078DE49 /* LCESoundTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCESoundTableViewCell.m; sourceTree = "<group>"; };
 		44501DC81CF2B5680078DE49 /* LCESoundTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LCESoundTableViewCell.xib; sourceTree = "<group>"; };
-		44B570781CED5627001067B2 /* UIImage+Original.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Original.h"; sourceTree = "<group>"; };
-		44B570791CED5627001067B2 /* UIImage+Original.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Original.m"; sourceTree = "<group>"; };
+		44B570781CED5627001067B2 /* UIImage+Original.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImage+Original.h"; path = "LCEHappySmile/Categories/UIImage+Original.h"; sourceTree = SOURCE_ROOT; };
+		44B570791CED5627001067B2 /* UIImage+Original.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Original.m"; path = "LCEHappySmile/Categories/UIImage+Original.m"; sourceTree = SOURCE_ROOT; };
 		44B5707D1CED6A41001067B2 /* HappySmile.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HappySmile.pch; sourceTree = "<group>"; };
 		44B5707E1CED6AF9001067B2 /* LCEPrecompile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCEPrecompile.h; sourceTree = "<group>"; };
 		44B5707F1CED9BE5001067B2 /* LCEBaseRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCEBaseRequest.h; sourceTree = "<group>"; };
@@ -218,6 +222,14 @@
 		44B570831CED9EB6001067B2 /* LCEBaseRequestAccessory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCEBaseRequestAccessory.m; sourceTree = "<group>"; };
 		44B570851CEDA229001067B2 /* NSString+Empty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+Empty.h"; path = "LCEHappySmile/Categories/NSString+Empty.h"; sourceTree = SOURCE_ROOT; };
 		44B570861CEDA229001067B2 /* NSString+Empty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+Empty.m"; path = "LCEHappySmile/Categories/NSString+Empty.m"; sourceTree = SOURCE_ROOT; };
+		44FCD8BA1CF3FE2A0026EAF5 /* LookBigPicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LookBigPicViewController.h; sourceTree = "<group>"; };
+		44FCD8BB1CF3FE2A0026EAF5 /* LookBigPicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LookBigPicViewController.m; sourceTree = "<group>"; };
+		44FCD8BC1CF3FE2A0026EAF5 /* PercentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PercentView.h; sourceTree = "<group>"; };
+		44FCD8BD1CF3FE2A0026EAF5 /* PercentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PercentView.m; sourceTree = "<group>"; };
+		44FCD8BE1CF3FE2A0026EAF5 /* PicImgScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PicImgScrollView.h; sourceTree = "<group>"; };
+		44FCD8BF1CF3FE2A0026EAF5 /* PicImgScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PicImgScrollView.m; sourceTree = "<group>"; };
+		44FCD8C01CF3FE2A0026EAF5 /* UIImage+JSH.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+JSH.h"; sourceTree = "<group>"; };
+		44FCD8C11CF3FE2A0026EAF5 /* UIImage+JSH.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+JSH.m"; sourceTree = "<group>"; };
 		58914D57A69F574C5891A74F /* libPods-LCEHappySmileTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LCEHappySmileTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA5E84AF069EEFCF1BC80BCE /* Pods-LCEHappySmileTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LCEHappySmileTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LCEHappySmileTests/Pods-LCEHappySmileTests.release.xcconfig"; sourceTree = "<group>"; };
 		ED9DDFE4FBE8F6745CFD5D26 /* Pods-LCEHappySmileTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LCEHappySmileTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LCEHappySmileTests/Pods-LCEHappySmileTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -396,6 +408,7 @@
 		443E901E1CEDBCB600D3BA93 /* Vendor */ = {
 			isa = PBXGroup;
 			children = (
+				44FCD8B91CF3FE2A0026EAF5 /* LookBigPicture */,
 				4443F1DE1CEEDCF8002053E0 /* AFDownloadRequestOperation.h */,
 				4443F1DF1CEEDCF8002053E0 /* AFDownloadRequestOperation.m */,
 				4443F1B61CEEDBBE002053E0 /* YTKNetwork */,
@@ -519,8 +532,7 @@
 			children = (
 				443E902C1CEDBE8A00D3BA93 /* NSDate */,
 				44B570881CEDA23F001067B2 /* NSString */,
-				44B570781CED5627001067B2 /* UIImage+Original.h */,
-				44B570791CED5627001067B2 /* UIImage+Original.m */,
+				44FCD8B81CF3E3B20026EAF5 /* UIImage */,
 			);
 			path = Categories;
 			sourceTree = "<group>";
@@ -566,6 +578,30 @@
 				443E902A1CEDBE4B00D3BA93 /* NSString+Contain.m */,
 			);
 			path = NSString;
+			sourceTree = "<group>";
+		};
+		44FCD8B81CF3E3B20026EAF5 /* UIImage */ = {
+			isa = PBXGroup;
+			children = (
+				44B570781CED5627001067B2 /* UIImage+Original.h */,
+				44B570791CED5627001067B2 /* UIImage+Original.m */,
+			);
+			path = UIImage;
+			sourceTree = "<group>";
+		};
+		44FCD8B91CF3FE2A0026EAF5 /* LookBigPicture */ = {
+			isa = PBXGroup;
+			children = (
+				44FCD8BA1CF3FE2A0026EAF5 /* LookBigPicViewController.h */,
+				44FCD8BB1CF3FE2A0026EAF5 /* LookBigPicViewController.m */,
+				44FCD8BC1CF3FE2A0026EAF5 /* PercentView.h */,
+				44FCD8BD1CF3FE2A0026EAF5 /* PercentView.m */,
+				44FCD8BE1CF3FE2A0026EAF5 /* PicImgScrollView.h */,
+				44FCD8BF1CF3FE2A0026EAF5 /* PicImgScrollView.m */,
+				44FCD8C01CF3FE2A0026EAF5 /* UIImage+JSH.h */,
+				44FCD8C11CF3FE2A0026EAF5 /* UIImage+JSH.m */,
+			);
+			path = LookBigPicture;
 			sourceTree = "<group>";
 		};
 		6357C34AC8B9633B54A3C1D0 /* Frameworks */ = {
@@ -662,7 +698,7 @@
 				TargetAttributes = {
 					441652931CEC518F003FEB9D = {
 						CreatedOnToolsVersion = 7.3.1;
-						DevelopmentTeam = ECZYDYW676;
+						DevelopmentTeam = X634X4Y33S;
 					};
 					441652AC1CEC5190003FEB9D = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -839,7 +875,9 @@
 				440547841CF00367006B9269 /* LCETextListModel.m in Sources */,
 				440547941CF0450A006B9269 /* LCEVideoModel.m in Sources */,
 				4443F1CA1CEEDBBE002053E0 /* YTKBatchRequest.m in Sources */,
+				44FCD8C31CF3FE2A0026EAF5 /* PercentView.m in Sources */,
 				440547811CF00356006B9269 /* LCETextContentModel.m in Sources */,
+				44FCD8C21CF3FE2A0026EAF5 /* LookBigPicViewController.m in Sources */,
 				44501DC51CF2ABA10078DE49 /* LCESoundListModel.m in Sources */,
 				4443F1EB1CEEE618002053E0 /* LCEPictureContentModel.m in Sources */,
 				441652CE1CEC6B81003FEB9D /* LCEMainTabBarController.m in Sources */,
@@ -850,6 +888,7 @@
 				44B570841CED9EB6001067B2 /* LCEBaseRequestAccessory.m in Sources */,
 				4443F1F21CEF051E002053E0 /* LCEPictureListTableViewCell.m in Sources */,
 				44501DC21CF2AA500078DE49 /* LCESoundContentModel.m in Sources */,
+				44FCD8C51CF3FE2A0026EAF5 /* UIImage+JSH.m in Sources */,
 				44501DBC1CF2A8D30078DE49 /* LCESoundModel.m in Sources */,
 				440547881CF00832006B9269 /* LCETextListTableViewCell.m in Sources */,
 				443E902F1CEDBEB000D3BA93 /* NSDate+BTAddition.m in Sources */,
@@ -874,6 +913,7 @@
 				4443F1D11CEEDBBE002053E0 /* YTKRequest.m in Sources */,
 				4443F1CE1CEEDBBE002053E0 /* YTKNetworkAgent.m in Sources */,
 				44501DBF1CF2A9BB0078DE49 /* LCESoundAlbumModel.m in Sources */,
+				44FCD8C41CF3FE2A0026EAF5 /* PicImgScrollView.m in Sources */,
 				4443F1EE1CEEE769002053E0 /* LCEPictureListModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
