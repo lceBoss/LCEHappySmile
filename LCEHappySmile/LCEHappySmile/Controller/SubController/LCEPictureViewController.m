@@ -22,6 +22,8 @@
 @property (weak, nonatomic) IBOutlet UICollectionView *collectionView;
 @property (nonatomic, strong) NSMutableArray *dataArray;
 @property (nonatomic, assign) NSInteger page;
+@property (nonatomic, strong) NSMutableArray *bigUrlStr;
+@property (nonatomic, strong) NSMutableArray *bigPicDesc;
 @end
 
 @implementation LCEPictureViewController
@@ -61,11 +63,15 @@ static NSString * const reuseIdentifier = @"LCEPictureCollectionViewCell";
 #pragma mark --- CollectionViewDelegate
 
 - (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath {
-    LCEPictureListModel *model = self.dataArray[indexPath.row];
+    
+    
+    
+//    LCEPictureListModel *model = self.dataArray[indexPath.row];
+
     LookBigPicViewController *picVC = [[LookBigPicViewController alloc]init];
-    NSArray *bigUrlStr = @[model.img];
-    [picVC initWithAllBigUrlArray:bigUrlStr andSmallUrlArray:nil andTargets:self andIndex:0];
-    [picVC bigPicDescribe:@[model.title]];
+//    NSArray *bigUrlStr = @[model.img];
+    [picVC initWithAllBigUrlArray:_bigUrlStr andSmallUrlArray:nil andTargets:self andIndex:indexPath.row];
+    [picVC bigPicDescribe:_bigPicDesc];
     [picVC pushChildViewControllerFromCenter];
     //    [picVC pushChildViewControllerWithArray:self.dataArray];
 }
@@ -85,7 +91,15 @@ static NSString * const reuseIdentifier = @"LCEPictureCollectionViewCell";
             if (page == 1) {
                 [self.dataArray removeAllObjects];
             }
+            
             [self.dataArray addObjectsFromArray:contentModel.contentlist];
+            [self.bigUrlStr removeAllObjects];
+            [self.bigPicDesc removeAllObjects];
+            for (int i = 0; i < self.dataArray.count; i ++) {
+                LCEPictureListModel *model = self.dataArray[i];
+                [_bigUrlStr addObject:model.img];
+                [_bigPicDesc addObject:model.title];
+            }
             
             [self requestFailed:NO];
         }else {
@@ -137,6 +151,18 @@ static NSString * const reuseIdentifier = @"LCEPictureCollectionViewCell";
     return _dataArray;
 }
 
+- (NSMutableArray *)bigUrlStr {
+    if (!_bigUrlStr) {
+        _bigUrlStr = [NSMutableArray array];
+    }
+    return _bigUrlStr;
+}
+- (NSMutableArray *)bigPicDesc {
+    if (!_bigPicDesc) {
+        _bigPicDesc = [NSMutableArray array];
+    }
+    return _bigPicDesc;
+}
 
 
 @end

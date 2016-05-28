@@ -20,7 +20,7 @@
                             <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="15" id="H9T-Jf-Y8z"/>
                         </constraints>
                         <fontDescription key="fontDescription" type="system" pointSize="15"/>
-                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                         <nil key="highlightedColor"/>
                     </label>
                     <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="TMU-Rg-uPK">
@@ -81,7 +81,7 @@
                 <outlet property="lineHeightConstraint" destination="C81-eg-n0C" id="jZ5-a6-TPg"/>
                 <outlet property="titleLabel" destination="NkI-75-NEL" id="hJ2-IB-Ld3"/>
             </connections>
-            <point key="canvasLocation" x="943" y="420.5"/>
+            <point key="canvasLocation" x="1264" y="583.5"/>
         </tableViewCell>
     </objects>
 </document>
